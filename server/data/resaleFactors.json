@@ -1,0 +1,58 @@
+{
+  "brandMultipliers": {
+    "Maruti Suzuki": 1.15,
+    "Toyota": 1.2,
+    "Hyundai": 1.08,
+    "Tata": 0.95,
+    "Mahindra": 1.05,
+    "Kia": 1.02,
+    "Honda": 1.1,
+    "MG": 0.9,
+    "Skoda": 0.85,
+    "Volkswagen": 0.85,
+    "Renault": 0.8,
+    "Citroen": 0.75,
+    "Jeep": 0.85,
+    "BYD": 0.8,
+    "Nissan": 0.8
+  },
+  "segmentRetention": {
+    "Hatchback": {
+      "year1": 85,
+      "year2": 75,
+      "year3": 65,
+      "year5": 48
+    },
+    "SUV": {
+      "year1": 87,
+      "year2": 78,
+      "year3": 70,
+      "year5": 55
+    },
+    "Sedan": {
+      "year1": 80,
+      "year2": 70,
+      "year3": 60,
+      "year5": 45
+    },
+    "MUV": {
+      "year1": 88,
+      "year2": 80,
+      "year3": 72,
+      "year5": 58
+    }
+  },
+  "fuelTypeAdjustment": {
+    "Petrol": 1.0,
+    "Diesel": 0.95,
+    "CNG": 1.05,
+    "Electric": 0.8
+  },
+  "cityDemandFactor": {
+    "Mumbai": 1.05,
+    "Delhi": 1.08,
+    "Bangalore": 1.06,
+    "Chennai": 1.02,
+    "Hyderabad": 1.04
+  }
+}

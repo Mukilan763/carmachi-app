@@ -1,0 +1,422 @@
+[
+  {
+    "id": "post-1",
+    "title": "Question about hyundai creta",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User737",
+    "category": "issue",
+    "carId": "nissan-magnite",
+    "createdAt": "2026-08-16T10:30:00Z",
+    "likes": 23,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-2",
+    "title": "Question about tata tigor",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User461",
+    "category": "review",
+    "carId": "maruti-fronx",
+    "createdAt": "2026-08-23T10:30:00Z",
+    "likes": 39,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-3",
+    "title": "Question about maruti ertiga",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User359",
+    "category": "issue",
+    "carId": "byd-atto-3",
+    "createdAt": "2026-08-28T10:30:00Z",
+    "likes": 53,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-4",
+    "title": "Question about maruti fronx",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User482",
+    "category": "comparison",
+    "carId": "mg-comet-ev",
+    "createdAt": "2026-08-13T10:30:00Z",
+    "likes": 48,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-5",
+    "title": "Question about hyundai exter",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User777",
+    "category": "comparison",
+    "carId": "honda-city",
+    "createdAt": "2026-08-12T10:30:00Z",
+    "likes": 52,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-6",
+    "title": "Question about maruti alto k10",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User406",
+    "category": "comparison",
+    "carId": "maruti-xl6",
+    "createdAt": "2026-08-27T10:30:00Z",
+    "likes": 11,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-7",
+    "title": "Question about maruti fronx",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User710",
+    "category": "review",
+    "carId": "maruti-baleno",
+    "createdAt": "2026-08-26T10:30:00Z",
+    "likes": 50,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-8",
+    "title": "Question about jeep compass",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User841",
+    "category": "issue",
+    "carId": "tata-tigor",
+    "createdAt": "2026-08-24T10:30:00Z",
+    "likes": 39,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-9",
+    "title": "Question about hyundai creta",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User232",
+    "category": "comparison",
+    "carId": "skoda-kushaq",
+    "createdAt": "2026-08-21T10:30:00Z",
+    "likes": 77,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-10",
+    "title": "Question about renault kwid",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User566",
+    "category": "issue",
+    "carId": "mahindra-xuv400-ev",
+    "createdAt": "2026-08-15T10:30:00Z",
+    "likes": 35,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-11",
+    "title": "Question about maruti dzire",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User259",
+    "category": "comparison",
+    "carId": "maruti-fronx",
+    "createdAt": "2026-08-10T10:30:00Z",
+    "likes": 37,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-12",
+    "title": "Question about volkswagen virtus",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User654",
+    "category": "review",
+    "carId": "maruti-s-presso",
+    "createdAt": "2026-08-26T10:30:00Z",
+    "likes": 72,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-13",
+    "title": "Question about toyota innova crysta",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User292",
+    "category": "review",
+    "carId": "maruti-celerio",
+    "createdAt": "2026-08-22T10:30:00Z",
+    "likes": 38,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-14",
+    "title": "Question about honda city",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User669",
+    "category": "review",
+    "carId": "hyundai-verna",
+    "createdAt": "2026-08-12T10:30:00Z",
+    "likes": 25,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-15",
+    "title": "Question about honda city",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User250",
+    "category": "review",
+    "carId": "hyundai-alcazar",
+    "createdAt": "2026-08-26T10:30:00Z",
+    "likes": 18,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-16",
+    "title": "Question about tata nexon",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User304",
+    "category": "issue",
+    "carId": "maruti-invicto",
+    "createdAt": "2026-08-26T10:30:00Z",
+    "likes": 93,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-17",
+    "title": "Question about hyundai exter",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User386",
+    "category": "issue",
+    "carId": "maruti-wagonr",
+    "createdAt": "2026-08-22T10:30:00Z",
+    "likes": 51,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-18",
+    "title": "Question about mahindra scorpio n",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User340",
+    "category": "review",
+    "carId": "kia-carens",
+    "createdAt": "2026-08-21T10:30:00Z",
+    "likes": 99,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-19",
+    "title": "Question about kia ev6",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User462",
+    "category": "issue",
+    "carId": "toyota-innova-hycross",
+    "createdAt": "2026-08-28T10:30:00Z",
+    "likes": 97,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  },
+  {
+    "id": "post-20",
+    "title": "Question about hyundai grand i10 nios",
+    "content": "I am planning to buy this car. What is the real world mileage? Any major issues?",
+    "authorName": "User229",
+    "category": "review",
+    "carId": "hyundai-venue",
+    "createdAt": "2026-08-25T10:30:00Z",
+    "likes": 82,
+    "replies": [
+      {
+        "author": "Expert1",
+        "content": "It is a great car, mileage is around 15kmpl in city.",
+        "likes": 5
+      }
+    ],
+    "tags": [
+      "buying",
+      "mileage"
+    ]
+  }
+]

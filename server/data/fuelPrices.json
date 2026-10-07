@@ -1,0 +1,52 @@
+{
+  "Maharashtra": {
+    "petrol": 104.21,
+    "diesel": 92.15,
+    "cng": 89.5
+  },
+  "Karnataka": {
+    "petrol": 101.94,
+    "diesel": 87.89,
+    "cng": 79.9
+  },
+  "Delhi": {
+    "petrol": 96.72,
+    "diesel": 89.62,
+    "cng": 74.09
+  },
+  "Tamil Nadu": {
+    "petrol": 102.63,
+    "diesel": 94.24,
+    "cng": 82.5
+  },
+  "Gujarat": {
+    "petrol": 96.42,
+    "diesel": 92.17,
+    "cng": 76.5
+  },
+  "Uttar Pradesh": {
+    "petrol": 96.57,
+    "diesel": 89.76,
+    "cng": 78.5
+  },
+  "Kerala": {
+    "petrol": 107.56,
+    "diesel": 96.43,
+    "cng": 85.0
+  },
+  "West Bengal": {
+    "petrol": 106.03,
+    "diesel": 92.76,
+    "cng": 84.5
+  },
+  "Telangana": {
+    "petrol": 109.66,
+    "diesel": 97.82,
+    "cng": 92.5
+  },
+  "Rajasthan": {
+    "petrol": 108.48,
+    "diesel": 93.72,
+    "cng": 88.0
+  }
+}

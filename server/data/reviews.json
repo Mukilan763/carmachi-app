@@ -1,0 +1,692 @@
+{
+  "maruti-alto-k10": {
+    "overall": 4.2,
+    "reliability": 3.8,
+    "comfort": 4.6,
+    "performance": 3.6,
+    "valueForMoney": 4.0,
+    "serviceExperience": 3.7,
+    "totalReviews": 1723,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Alto K10 for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-s-presso": {
+    "overall": 4.5,
+    "reliability": 4.0,
+    "comfort": 4.7,
+    "performance": 4.0,
+    "valueForMoney": 3.8,
+    "serviceExperience": 3.9,
+    "totalReviews": 1443,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki S-Presso for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-celerio": {
+    "overall": 4.4,
+    "reliability": 3.7,
+    "comfort": 4.6,
+    "performance": 4.5,
+    "valueForMoney": 4.3,
+    "serviceExperience": 4.7,
+    "totalReviews": 3414,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Celerio for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-wagonr": {
+    "overall": 4.1,
+    "reliability": 4.7,
+    "comfort": 4.5,
+    "performance": 4.5,
+    "valueForMoney": 4.7,
+    "serviceExperience": 4.1,
+    "totalReviews": 3483,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Wagon R for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-swift": {
+    "overall": 4.2,
+    "reliability": 4.5,
+    "comfort": 4.8,
+    "performance": 4.2,
+    "valueForMoney": 4.0,
+    "serviceExperience": 3.9,
+    "totalReviews": 3434,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Swift for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-baleno": {
+    "overall": 3.8,
+    "reliability": 4.4,
+    "comfort": 4.4,
+    "performance": 4.1,
+    "valueForMoney": 3.9,
+    "serviceExperience": 4.3,
+    "totalReviews": 2804,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Baleno for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-dzire": {
+    "overall": 4.6,
+    "reliability": 4.1,
+    "comfort": 3.7,
+    "performance": 3.7,
+    "valueForMoney": 4.1,
+    "serviceExperience": 3.8,
+    "totalReviews": 1616,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Dzire for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-ciaz": {
+    "overall": 4.2,
+    "reliability": 4.5,
+    "comfort": 4.7,
+    "performance": 4.6,
+    "valueForMoney": 4.5,
+    "serviceExperience": 3.9,
+    "totalReviews": 2021,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Ciaz for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-fronx": {
+    "overall": 4.4,
+    "reliability": 3.6,
+    "comfort": 3.7,
+    "performance": 3.6,
+    "valueForMoney": 4.3,
+    "serviceExperience": 4.7,
+    "totalReviews": 4799,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Fronx for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-brezza": {
+    "overall": 4.1,
+    "reliability": 4.6,
+    "comfort": 4.6,
+    "performance": 4.5,
+    "valueForMoney": 4.1,
+    "serviceExperience": 4.0,
+    "totalReviews": 1003,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Brezza for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-grand-vitara": {
+    "overall": 4.5,
+    "reliability": 4.8,
+    "comfort": 4.4,
+    "performance": 4.4,
+    "valueForMoney": 4.1,
+    "serviceExperience": 4.7,
+    "totalReviews": 1683,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Grand Vitara for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-ertiga": {
+    "overall": 4.4,
+    "reliability": 3.9,
+    "comfort": 4.2,
+    "performance": 4.2,
+    "valueForMoney": 3.7,
+    "serviceExperience": 4.1,
+    "totalReviews": 746,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Ertiga for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-xl6": {
+    "overall": 4.6,
+    "reliability": 3.6,
+    "comfort": 3.9,
+    "performance": 3.7,
+    "valueForMoney": 3.7,
+    "serviceExperience": 4.0,
+    "totalReviews": 3446,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki XL6 for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-jimny": {
+    "overall": 3.9,
+    "reliability": 3.7,
+    "comfort": 4.6,
+    "performance": 4.2,
+    "valueForMoney": 3.5,
+    "serviceExperience": 4.0,
+    "totalReviews": 4240,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Jimny for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "maruti-invicto": {
+    "overall": 4.8,
+    "reliability": 3.7,
+    "comfort": 4.5,
+    "performance": 4.7,
+    "valueForMoney": 4.3,
+    "serviceExperience": 4.2,
+    "totalReviews": 424,
+    "sentimentSummary": "Owners generally appreciate the Maruti Suzuki Invicto for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "hyundai-grand-i10-nios": {
+    "overall": 4.2,
+    "reliability": 4.1,
+    "comfort": 4.1,
+    "performance": 3.8,
+    "valueForMoney": 4.1,
+    "serviceExperience": 4.7,
+    "totalReviews": 3838,
+    "sentimentSummary": "Owners generally appreciate the Hyundai Grand i10 Nios for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "hyundai-i20": {
+    "overall": 4.5,
+    "reliability": 4.2,
+    "comfort": 3.6,
+    "performance": 4.3,
+    "valueForMoney": 4.1,
+    "serviceExperience": 4.4,
+    "totalReviews": 2935,
+    "sentimentSummary": "Owners generally appreciate the Hyundai i20 for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "hyundai-aura": {
+    "overall": 4.4,
+    "reliability": 4.2,
+    "comfort": 4.2,
+    "performance": 4.1,
+    "valueForMoney": 4.4,
+    "serviceExperience": 4.0,
+    "totalReviews": 2332,
+    "sentimentSummary": "Owners generally appreciate the Hyundai Aura for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "hyundai-verna": {
+    "overall": 4.3,
+    "reliability": 3.8,
+    "comfort": 3.6,
+    "performance": 4.0,
+    "valueForMoney": 4.1,
+    "serviceExperience": 4.5,
+    "totalReviews": 4460,
+    "sentimentSummary": "Owners generally appreciate the Hyundai Verna for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "hyundai-venue": {
+    "overall": 4.8,
+    "reliability": 4.6,
+    "comfort": 3.9,
+    "performance": 4.5,
+    "valueForMoney": 4.4,
+    "serviceExperience": 4.4,
+    "totalReviews": 3216,
+    "sentimentSummary": "Owners generally appreciate the Hyundai Venue for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "hyundai-creta": {
+    "overall": 4.0,
+    "reliability": 4.2,
+    "comfort": 4.2,
+    "performance": 4.0,
+    "valueForMoney": 4.0,
+    "serviceExperience": 4.5,
+    "totalReviews": 4071,
+    "sentimentSummary": "Owners generally appreciate the Hyundai Creta for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "hyundai-alcazar": {
+    "overall": 4.0,
+    "reliability": 4.2,
+    "comfort": 4.5,
+    "performance": 4.4,
+    "valueForMoney": 4.4,
+    "serviceExperience": 4.7,
+    "totalReviews": 2168,
+    "sentimentSummary": "Owners generally appreciate the Hyundai Alcazar for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "hyundai-tucson": {
+    "overall": 4.1,
+    "reliability": 4.4,
+    "comfort": 3.8,
+    "performance": 4.5,
+    "valueForMoney": 4.0,
+    "serviceExperience": 3.7,
+    "totalReviews": 4930,
+    "sentimentSummary": "Owners generally appreciate the Hyundai Tucson for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "hyundai-exter": {
+    "overall": 4.3,
+    "reliability": 4.3,
+    "comfort": 4.3,
+    "performance": 4.3,
+    "valueForMoney": 3.5,
+    "serviceExperience": 4.0,
+    "totalReviews": 2698,
+    "sentimentSummary": "Owners generally appreciate the Hyundai Exter for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "tata-tiago": {
+    "overall": 4.5,
+    "reliability": 4.1,
+    "comfort": 4.5,
+    "performance": 3.8,
+    "valueForMoney": 4.3,
+    "serviceExperience": 3.6,
+    "totalReviews": 3966,
+    "sentimentSummary": "Owners generally appreciate the Tata Tiago for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "tata-punch": {
+    "overall": 4.0,
+    "reliability": 4.4,
+    "comfort": 4.0,
+    "performance": 4.8,
+    "valueForMoney": 3.8,
+    "serviceExperience": 4.6,
+    "totalReviews": 2631,
+    "sentimentSummary": "Owners generally appreciate the Tata Punch for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "tata-altroz": {
+    "overall": 4.3,
+    "reliability": 4.0,
+    "comfort": 3.9,
+    "performance": 3.6,
+    "valueForMoney": 4.8,
+    "serviceExperience": 4.1,
+    "totalReviews": 2357,
+    "sentimentSummary": "Owners generally appreciate the Tata Altroz for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "tata-tigor": {
+    "overall": 4.6,
+    "reliability": 4.7,
+    "comfort": 4.0,
+    "performance": 4.7,
+    "valueForMoney": 3.8,
+    "serviceExperience": 4.5,
+    "totalReviews": 4043,
+    "sentimentSummary": "Owners generally appreciate the Tata Tigor for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "tata-nexon": {
+    "overall": 4.5,
+    "reliability": 4.1,
+    "comfort": 3.8,
+    "performance": 3.6,
+    "valueForMoney": 4.0,
+    "serviceExperience": 4.7,
+    "totalReviews": 3178,
+    "sentimentSummary": "Owners generally appreciate the Tata Nexon for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "tata-nexon-ev": {
+    "overall": 4.7,
+    "reliability": 4.1,
+    "comfort": 4.2,
+    "performance": 4.1,
+    "valueForMoney": 4.6,
+    "serviceExperience": 4.7,
+    "totalReviews": 4972,
+    "sentimentSummary": "Owners generally appreciate the Tata Nexon EV for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "tata-harrier": {
+    "overall": 4.2,
+    "reliability": 4.1,
+    "comfort": 4.6,
+    "performance": 4.7,
+    "valueForMoney": 4.7,
+    "serviceExperience": 4.6,
+    "totalReviews": 4505,
+    "sentimentSummary": "Owners generally appreciate the Tata Harrier for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "tata-safari": {
+    "overall": 3.8,
+    "reliability": 4.6,
+    "comfort": 4.7,
+    "performance": 4.4,
+    "valueForMoney": 4.4,
+    "serviceExperience": 4.7,
+    "totalReviews": 2977,
+    "sentimentSummary": "Owners generally appreciate the Tata Safari for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "tata-curvv": {
+    "overall": 4.2,
+    "reliability": 4.4,
+    "comfort": 4.4,
+    "performance": 4.0,
+    "valueForMoney": 4.7,
+    "serviceExperience": 3.5,
+    "totalReviews": 2385,
+    "sentimentSummary": "Owners generally appreciate the Tata Curvv for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "mahindra-bolero": {
+    "overall": 4.5,
+    "reliability": 3.6,
+    "comfort": 4.6,
+    "performance": 4.5,
+    "valueForMoney": 4.7,
+    "serviceExperience": 4.5,
+    "totalReviews": 2785,
+    "sentimentSummary": "Owners generally appreciate the Mahindra Bolero for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "mahindra-xuv300": {
+    "overall": 4.2,
+    "reliability": 3.9,
+    "comfort": 3.6,
+    "performance": 4.6,
+    "valueForMoney": 3.5,
+    "serviceExperience": 4.3,
+    "totalReviews": 1651,
+    "sentimentSummary": "Owners generally appreciate the Mahindra XUV300 for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "mahindra-xuv400-ev": {
+    "overall": 4.2,
+    "reliability": 4.4,
+    "comfort": 4.6,
+    "performance": 4.7,
+    "valueForMoney": 4.4,
+    "serviceExperience": 3.8,
+    "totalReviews": 4989,
+    "sentimentSummary": "Owners generally appreciate the Mahindra XUV400 EV for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "mahindra-xuv700": {
+    "overall": 3.9,
+    "reliability": 3.8,
+    "comfort": 3.8,
+    "performance": 4.0,
+    "valueForMoney": 4.0,
+    "serviceExperience": 3.7,
+    "totalReviews": 2324,
+    "sentimentSummary": "Owners generally appreciate the Mahindra XUV700 for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "mahindra-thar": {
+    "overall": 4.3,
+    "reliability": 4.1,
+    "comfort": 3.5,
+    "performance": 3.6,
+    "valueForMoney": 4.1,
+    "serviceExperience": 3.5,
+    "totalReviews": 2582,
+    "sentimentSummary": "Owners generally appreciate the Mahindra Thar for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "mahindra-scorpio-n": {
+    "overall": 3.9,
+    "reliability": 4.6,
+    "comfort": 4.8,
+    "performance": 3.8,
+    "valueForMoney": 3.6,
+    "serviceExperience": 4.3,
+    "totalReviews": 731,
+    "sentimentSummary": "Owners generally appreciate the Mahindra Scorpio N for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "mahindra-bolero-neo": {
+    "overall": 4.1,
+    "reliability": 4.4,
+    "comfort": 4.8,
+    "performance": 4.2,
+    "valueForMoney": 3.6,
+    "serviceExperience": 3.9,
+    "totalReviews": 4901,
+    "sentimentSummary": "Owners generally appreciate the Mahindra Bolero Neo for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "kia-sonet": {
+    "overall": 4.0,
+    "reliability": 4.6,
+    "comfort": 4.0,
+    "performance": 4.0,
+    "valueForMoney": 4.7,
+    "serviceExperience": 4.6,
+    "totalReviews": 1925,
+    "sentimentSummary": "Owners generally appreciate the Kia Sonet for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "kia-seltos": {
+    "overall": 3.9,
+    "reliability": 3.8,
+    "comfort": 4.2,
+    "performance": 4.6,
+    "valueForMoney": 4.6,
+    "serviceExperience": 4.2,
+    "totalReviews": 3181,
+    "sentimentSummary": "Owners generally appreciate the Kia Seltos for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "kia-carens": {
+    "overall": 4.7,
+    "reliability": 4.3,
+    "comfort": 4.7,
+    "performance": 4.8,
+    "valueForMoney": 4.6,
+    "serviceExperience": 3.9,
+    "totalReviews": 1509,
+    "sentimentSummary": "Owners generally appreciate the Kia Carens for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "kia-ev6": {
+    "overall": 4.6,
+    "reliability": 4.6,
+    "comfort": 4.1,
+    "performance": 4.1,
+    "valueForMoney": 4.1,
+    "serviceExperience": 3.9,
+    "totalReviews": 2679,
+    "sentimentSummary": "Owners generally appreciate the Kia EV6 for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "toyota-glanza": {
+    "overall": 4.7,
+    "reliability": 4.8,
+    "comfort": 3.8,
+    "performance": 3.9,
+    "valueForMoney": 4.4,
+    "serviceExperience": 4.2,
+    "totalReviews": 3672,
+    "sentimentSummary": "Owners generally appreciate the Toyota Glanza for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "toyota-urban-cruiser-hyryder": {
+    "overall": 4.5,
+    "reliability": 4.7,
+    "comfort": 3.6,
+    "performance": 4.5,
+    "valueForMoney": 3.7,
+    "serviceExperience": 4.7,
+    "totalReviews": 1522,
+    "sentimentSummary": "Owners generally appreciate the Toyota Urban Cruiser Hyryder for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "toyota-innova-crysta": {
+    "overall": 3.8,
+    "reliability": 4.3,
+    "comfort": 3.9,
+    "performance": 4.0,
+    "valueForMoney": 4.4,
+    "serviceExperience": 3.5,
+    "totalReviews": 1800,
+    "sentimentSummary": "Owners generally appreciate the Toyota Innova Crysta for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "toyota-innova-hycross": {
+    "overall": 4.6,
+    "reliability": 3.9,
+    "comfort": 4.0,
+    "performance": 4.3,
+    "valueForMoney": 4.3,
+    "serviceExperience": 3.8,
+    "totalReviews": 347,
+    "sentimentSummary": "Owners generally appreciate the Toyota Innova Hycross for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "toyota-fortuner": {
+    "overall": 3.9,
+    "reliability": 4.6,
+    "comfort": 4.1,
+    "performance": 3.5,
+    "valueForMoney": 4.5,
+    "serviceExperience": 3.6,
+    "totalReviews": 830,
+    "sentimentSummary": "Owners generally appreciate the Toyota Fortuner for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "honda-amaze": {
+    "overall": 3.9,
+    "reliability": 4.0,
+    "comfort": 4.1,
+    "performance": 3.6,
+    "valueForMoney": 3.5,
+    "serviceExperience": 4.7,
+    "totalReviews": 2707,
+    "sentimentSummary": "Owners generally appreciate the Honda Amaze for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "honda-city": {
+    "overall": 4.1,
+    "reliability": 4.1,
+    "comfort": 4.2,
+    "performance": 3.9,
+    "valueForMoney": 3.6,
+    "serviceExperience": 3.5,
+    "totalReviews": 1341,
+    "sentimentSummary": "Owners generally appreciate the Honda City for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "honda-elevate": {
+    "overall": 4.7,
+    "reliability": 3.6,
+    "comfort": 4.3,
+    "performance": 4.4,
+    "valueForMoney": 3.6,
+    "serviceExperience": 3.9,
+    "totalReviews": 2324,
+    "sentimentSummary": "Owners generally appreciate the Honda Elevate for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "mg-hector": {
+    "overall": 4.3,
+    "reliability": 4.8,
+    "comfort": 3.9,
+    "performance": 3.9,
+    "valueForMoney": 4.7,
+    "serviceExperience": 4.5,
+    "totalReviews": 4997,
+    "sentimentSummary": "Owners generally appreciate the MG Hector for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "mg-astor": {
+    "overall": 4.0,
+    "reliability": 3.9,
+    "comfort": 4.2,
+    "performance": 3.6,
+    "valueForMoney": 3.9,
+    "serviceExperience": 4.8,
+    "totalReviews": 664,
+    "sentimentSummary": "Owners generally appreciate the MG Astor for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "mg-zs-ev": {
+    "overall": 4.6,
+    "reliability": 4.2,
+    "comfort": 4.5,
+    "performance": 3.6,
+    "valueForMoney": 4.5,
+    "serviceExperience": 4.0,
+    "totalReviews": 3831,
+    "sentimentSummary": "Owners generally appreciate the MG ZS EV for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "mg-comet-ev": {
+    "overall": 4.0,
+    "reliability": 3.9,
+    "comfort": 4.0,
+    "performance": 3.5,
+    "valueForMoney": 4.5,
+    "serviceExperience": 3.8,
+    "totalReviews": 4913,
+    "sentimentSummary": "Owners generally appreciate the MG Comet EV for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "skoda-slavia": {
+    "overall": 4.5,
+    "reliability": 4.1,
+    "comfort": 4.4,
+    "performance": 4.6,
+    "valueForMoney": 4.3,
+    "serviceExperience": 4.0,
+    "totalReviews": 2761,
+    "sentimentSummary": "Owners generally appreciate the Skoda Slavia for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "skoda-kushaq": {
+    "overall": 4.1,
+    "reliability": 3.8,
+    "comfort": 3.9,
+    "performance": 4.7,
+    "valueForMoney": 4.1,
+    "serviceExperience": 4.7,
+    "totalReviews": 3063,
+    "sentimentSummary": "Owners generally appreciate the Skoda Kushaq for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "skoda-kodiaq": {
+    "overall": 4.8,
+    "reliability": 4.6,
+    "comfort": 4.8,
+    "performance": 3.9,
+    "valueForMoney": 4.5,
+    "serviceExperience": 4.3,
+    "totalReviews": 1437,
+    "sentimentSummary": "Owners generally appreciate the Skoda Kodiaq for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "volkswagen-virtus": {
+    "overall": 4.1,
+    "reliability": 4.3,
+    "comfort": 4.2,
+    "performance": 4.5,
+    "valueForMoney": 4.2,
+    "serviceExperience": 4.5,
+    "totalReviews": 2250,
+    "sentimentSummary": "Owners generally appreciate the Volkswagen Virtus for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "volkswagen-taigun": {
+    "overall": 4.8,
+    "reliability": 4.4,
+    "comfort": 3.5,
+    "performance": 4.3,
+    "valueForMoney": 4.1,
+    "serviceExperience": 3.9,
+    "totalReviews": 192,
+    "sentimentSummary": "Owners generally appreciate the Volkswagen Taigun for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "renault-kwid": {
+    "overall": 4.8,
+    "reliability": 3.6,
+    "comfort": 4.7,
+    "performance": 4.7,
+    "valueForMoney": 3.9,
+    "serviceExperience": 4.2,
+    "totalReviews": 626,
+    "sentimentSummary": "Owners generally appreciate the Renault Kwid for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "renault-kiger": {
+    "overall": 4.1,
+    "reliability": 3.9,
+    "comfort": 3.7,
+    "performance": 4.1,
+    "valueForMoney": 4.3,
+    "serviceExperience": 4.2,
+    "totalReviews": 3065,
+    "sentimentSummary": "Owners generally appreciate the Renault Kiger for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "renault-triber": {
+    "overall": 3.9,
+    "reliability": 4.7,
+    "comfort": 3.8,
+    "performance": 4.5,
+    "valueForMoney": 4.7,
+    "serviceExperience": 4.1,
+    "totalReviews": 4202,
+    "sentimentSummary": "Owners generally appreciate the Renault Triber for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "citroen-c3": {
+    "overall": 4.1,
+    "reliability": 3.9,
+    "comfort": 4.6,
+    "performance": 3.8,
+    "valueForMoney": 4.3,
+    "serviceExperience": 4.1,
+    "totalReviews": 122,
+    "sentimentSummary": "Owners generally appreciate the Citroen C3 for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "citroen-c3-aircross": {
+    "overall": 4.6,
+    "reliability": 3.7,
+    "comfort": 3.9,
+    "performance": 3.7,
+    "valueForMoney": 4.0,
+    "serviceExperience": 3.7,
+    "totalReviews": 1685,
+    "sentimentSummary": "Owners generally appreciate the Citroen C3 Aircross for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "jeep-compass": {
+    "overall": 4.6,
+    "reliability": 4.2,
+    "comfort": 4.1,
+    "performance": 4.7,
+    "valueForMoney": 3.9,
+    "serviceExperience": 4.4,
+    "totalReviews": 1679,
+    "sentimentSummary": "Owners generally appreciate the Jeep Compass for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "byd-atto-3": {
+    "overall": 4.2,
+    "reliability": 3.8,
+    "comfort": 4.0,
+    "performance": 4.2,
+    "valueForMoney": 3.5,
+    "serviceExperience": 4.3,
+    "totalReviews": 2398,
+    "sentimentSummary": "Owners generally appreciate the BYD Atto 3 for its features and ride quality. Some feel that top variants are slightly expensive."
+  },
+  "nissan-magnite": {
+    "overall": 4.6,
+    "reliability": 4.6,
+    "comfort": 4.1,
+    "performance": 4.5,
+    "valueForMoney": 4.5,
+    "serviceExperience": 4.6,
+    "totalReviews": 2221,
+    "sentimentSummary": "Owners generally appreciate the Nissan Magnite for its features and ride quality. Some feel that top variants are slightly expensive."
+  }
+}

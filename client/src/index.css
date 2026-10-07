@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ═══════════════════════════════════════════════════════════ */
+/*  CARMACHI THEME ENGINE                                      */
+/* ═══════════════════════════════════════════════════════════ */
+
+/* ── DARK (Clean dark mode) ── */
+[data-theme='dark'] body { background-color: #111827 !important; color: #e5e7eb !important; }
+[data-theme='dark'] .bg-white, [data-theme='dark'] .bg-gray-50, [data-theme='dark'] .bg-white\/60 { background-color: #1f2937 !important; color: #f9fafb !important; border-color: #374151 !important; }
+[data-theme='dark'] .bg-gray-100, [data-theme='dark'] .bg-gray-100\/50 { background-color: #374151 !important; color: #f3f4f6 !important; }
+[data-theme='dark'] .text-gray-900, [data-theme='dark'] .text-gray-800 { color: #f9fafb !important; }
+[data-theme='dark'] .text-gray-700 { color: #d1d5db !important; }
+[data-theme='dark'] .text-gray-600, [data-theme='dark'] .text-gray-500, [data-theme='dark'] .text-gray-400 { color: #9ca3af !important; }
+[data-theme='dark'] .border-gray-100, [data-theme='dark'] .border-gray-200, [data-theme='dark'] .border-gray-300 { border-color: #374151 !important; }
+[data-theme='dark'] .bg-blue-50 { background-color: #1e3a5f !important; }
+[data-theme='dark'] .shadow-sm, [data-theme='dark'] .shadow-md, [data-theme='dark'] .shadow-lg { box-shadow: 0 4px 6px -1px rgba(0,0,0,0.4) !important; }
+[data-theme='dark'] input, [data-theme='dark'] select, [data-theme='dark'] textarea { background-color: #111827 !important; color: #f9fafb !important; border-color: #4b5563 !important; }
+[data-theme='dark'] nav { background-color: rgba(17,24,39,0.85) !important; border-color: #374151 !important; }
+
+/* ── MIDNIGHT (Deep indigo dark) ── */
+[data-theme='midnight'] body { background-color: #0f172a !important; color: #e2e8f0 !important; }
+[data-theme='midnight'] .bg-white, [data-theme='midnight'] .bg-gray-50, [data-theme='midnight'] .bg-white\/60 { background-color: #1e293b !important; color: #f8fafc !important; border-color: #334155 !important; }
+[data-theme='midnight'] .bg-gray-100, [data-theme='midnight'] .bg-gray-100\/50 { background-color: #334155 !important; color: #f1f5f9 !important; }
+[data-theme='midnight'] .text-gray-900, [data-theme='midnight'] .text-gray-800 { color: #f8fafc !important; }
+[data-theme='midnight'] .text-gray-700 { color: #cbd5e1 !important; }
+[data-theme='midnight'] .text-gray-600, [data-theme='midnight'] .text-gray-500, [data-theme='midnight'] .text-gray-400 { color: #94a3b8 !important; }
+[data-theme='midnight'] .border-gray-100, [data-theme='midnight'] .border-gray-200, [data-theme='midnight'] .border-gray-300 { border-color: #334155 !important; }
+[data-theme='midnight'] .bg-blue-600, [data-theme='midnight'] .bg-violet-600 { background-color: #6366f1 !important; color: white !important; }
+[data-theme='midnight'] .text-blue-600, [data-theme='midnight'] .text-violet-600 { color: #818cf8 !important; }
+[data-theme='midnight'] .text-fuchsia-600, [data-theme='midnight'] .text-fuchsia-500 { color: #c084fc !important; }
+[data-theme='midnight'] .shadow-sm, [data-theme='midnight'] .shadow-md, [data-theme='midnight'] .shadow-lg { box-shadow: 0 4px 6px -1px rgba(0,0,0,0.5) !important; }
+[data-theme='midnight'] input, [data-theme='midnight'] select, [data-theme='midnight'] textarea { background-color: #0f172a !important; color: #fff !important; border-color: #475569 !important; }
+[data-theme='midnight'] nav { background-color: rgba(15,23,42,0.9) !important; border-color: #334155 !important; }
+
+/* ── CYBERPUNK (Neon yellow + pink brutalism) ── */
+[data-theme='cyberpunk'] body { background-color: #fef08a !important; color: #000 !important; background-image: repeating-linear-gradient(45deg, #fef08a 0px, #fef08a 20px, #fde047 20px, #fde047 40px) !important; }
+[data-theme='cyberpunk'] .bg-white, [data-theme='cyberpunk'] .bg-gray-50, [data-theme='cyberpunk'] .bg-white\/60 { background-color: #fff !important; border: 3px solid #db2777 !important; box-shadow: 4px 4px 0px #db2777 !important; border-radius: 0 !important; color: #000 !important; }
+[data-theme='cyberpunk'] .text-blue-600, [data-theme='cyberpunk'] .text-violet-600 { color: #db2777 !important; }
+[data-theme='cyberpunk'] .bg-blue-600, [data-theme='cyberpunk'] .bg-violet-600 { background-color: #059669 !important; border: 2px solid #000 !important; border-radius: 0 !important; box-shadow: 3px 3px 0px #000 !important; color: #fff !important; }
+[data-theme='cyberpunk'] input, [data-theme='cyberpunk'] select, [data-theme='cyberpunk'] textarea { border-radius: 0 !important; border: 2px solid #db2777 !important; box-shadow: 2px 2px 0px #db2777 !important; }
+[data-theme='cyberpunk'] nav { border-radius: 0 !important; border-bottom: 3px solid #db2777 !important; }
+
+/* ── OCEAN (Teal & seafoam vibes) ── */
+[data-theme='ocean'] body { background-color: #042f2e !important; color: #ccfbf1 !important; }
+[data-theme='ocean'] .bg-white, [data-theme='ocean'] .bg-gray-50, [data-theme='ocean'] .bg-white\/60 { background-color: #134e4a !important; color: #f0fdfa !important; border-color: #115e59 !important; }
+[data-theme='ocean'] .bg-gray-100, [data-theme='ocean'] .bg-gray-100\/50 { background-color: #115e59 !important; color: #ccfbf1 !important; }
+[data-theme='ocean'] .text-gray-900, [data-theme='ocean'] .text-gray-800 { color: #f0fdfa !important; }
+[data-theme='ocean'] .text-gray-700 { color: #99f6e4 !important; }
+[data-theme='ocean'] .text-gray-600, [data-theme='ocean'] .text-gray-500, [data-theme='ocean'] .text-gray-400 { color: #5eead4 !important; }
+[data-theme='ocean'] .border-gray-100, [data-theme='ocean'] .border-gray-200, [data-theme='ocean'] .border-gray-300 { border-color: #115e59 !important; }
+[data-theme='ocean'] .bg-blue-600, [data-theme='ocean'] .bg-violet-600 { background-color: #0d9488 !important; color: white !important; }
+[data-theme='ocean'] .text-blue-600, [data-theme='ocean'] .text-violet-600 { color: #2dd4bf !important; }
+[data-theme='ocean'] .text-fuchsia-600, [data-theme='ocean'] .text-fuchsia-500 { color: #5eead4 !important; }
+[data-theme='ocean'] .shadow-sm, [data-theme='ocean'] .shadow-md, [data-theme='ocean'] .shadow-lg { box-shadow: 0 4px 12px rgba(0,0,0,0.3) !important; }
+[data-theme='ocean'] input, [data-theme='ocean'] select, [data-theme='ocean'] textarea { background-color: #042f2e !important; color: #f0fdfa !important; border-color: #0f766e !important; }
+[data-theme='ocean'] nav { background-color: rgba(4,47,46,0.92) !important; border-color: #115e59 !important; }
+
+/* ── SUNSET (Warm orange & rose gradients) ── */
+[data-theme='sunset'] body { background: linear-gradient(135deg, #fdf2f8 0%, #fff7ed 50%, #fef3c7 100%) !important; color: #1c1917 !important; background-attachment: fixed !important; }
+[data-theme='sunset'] .bg-white, [data-theme='sunset'] .bg-gray-50, [data-theme='sunset'] .bg-white\/60 { background-color: rgba(255,255,255,0.85) !important; border-color: #fecdd3 !important; }
+[data-theme='sunset'] .bg-blue-600, [data-theme='sunset'] .bg-violet-600 { background: linear-gradient(135deg, #f97316, #e11d48) !important; color: white !important; border: none !important; }
+[data-theme='sunset'] .text-blue-600, [data-theme='sunset'] .text-violet-600 { color: #e11d48 !important; }
+[data-theme='sunset'] .text-fuchsia-600, [data-theme='sunset'] .text-fuchsia-500 { color: #f97316 !important; }
+[data-theme='sunset'] .border-gray-100, [data-theme='sunset'] .border-gray-200 { border-color: #fecdd3 !important; }
+[data-theme='sunset'] nav { background: rgba(255,247,237,0.9) !important; border-color: #fed7aa !important; }
+[data-theme='sunset'] input, [data-theme='sunset'] select, [data-theme='sunset'] textarea { border-color: #fecdd3 !important; }
+
+/* Custom Scrollbar for modern UI */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; 
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1; 
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8; 
+}
+[data-theme='dark'] .custom-scrollbar::-webkit-scrollbar-thumb,
+[data-theme='midnight'] .custom-scrollbar::-webkit-scrollbar-thumb,
+[data-theme='ocean'] .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #475569; 
+}
