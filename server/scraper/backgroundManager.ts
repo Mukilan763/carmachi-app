@@ -52,6 +52,7 @@ export function runBackgroundScrape(trigger: string = 'Automated Cron') {
             dataStore.reloadCars();
         });
     });
+    });
 
     return { status: 'started', message: 'Background scraping pipeline triggered.' };
 }
