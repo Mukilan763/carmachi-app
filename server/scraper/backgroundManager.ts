@@ -13,17 +13,27 @@ export function runBackgroundScrape(trigger: string = 'Automated Cron') {
     console.log(`[Scraper] Starting live background scrape. Triggered by: ${trigger}`);
     isScraping = true;
 
+    const scriptPath0 = path.resolve(__dirname, 'discover_new_cars.js');
     const scriptPath1 = path.resolve(__dirname, '../livescrape_variants.js');
     const scriptPath2 = path.resolve(__dirname, '../livescrape_specs.js');
 
-    // Execute Variants Scrape
-    console.log('[Scraper] Phase 1: Scraping Variants & Pricing...');
-    exec(`node "${scriptPath1}"`, (error1, stdout1, stderr1) => {
-        if (error1) {
-            console.error('[Scraper] Phase 1 Failed:', error1.message);
-            isScraping = false;
-            return;
+    // Execute Phase 0: Discovery
+    console.log('[Scraper] Phase 0: Discovering newly launched cars...');
+    exec(`node "${scriptPath0}"`, (error0, stdout0, stderr0) => {
+        if (error0) {
+            console.error('[Scraper] Phase 0 Failed (Non-fatal):', error0.message);
+        } else {
+            console.log(stdout0);
         }
+
+        // Execute Variants Scrape
+        console.log('[Scraper] Phase 1: Scraping Variants & Pricing...');
+        exec(`node "${scriptPath1}"`, (error1, stdout1, stderr1) => {
+            if (error1) {
+                console.error('[Scraper] Phase 1 Failed:', error1.message);
+                isScraping = false;
+                return;
+            }
         
         console.log('[Scraper] Phase 1 Complete. Triggering Phase 2: Specs Scraping...');
         
