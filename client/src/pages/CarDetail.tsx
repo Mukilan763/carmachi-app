@@ -97,7 +97,7 @@ const CarDetail: React.FC = () => {
     if (!car) return;
     setFetchingLive(true);
     try {
-      const data = await liveAPI.fetchLive(car.name);
+      const data = await liveAPI.getLiveData(car.name);
       setLiveData(data);
     } catch (e) {
       setLiveData({ error: 'Failed' });
