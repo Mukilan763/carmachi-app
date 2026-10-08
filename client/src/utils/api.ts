@@ -81,3 +81,26 @@ export const forumAPI = {
 export const liveAPI = {
   getLiveData: (carName: string) => fetchAPI<any>(`/live/scrape?car=${encodeURIComponent(carName)}`),
 };
+
+// Auth API (MongoDB)
+export const authAPI = {
+  register: (data: any) =>
+    fetchAPI<any>('/auth/register', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    }),
+  login: (data: any) =>
+    fetchAPI<any>('/auth/login', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    }),
+  syncGarage: (garage: string[], token: string) =>
+    fetchAPI<any>('/auth/garage/sync', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`
+      },
+      body: JSON.stringify({ garage }),
+    }),
+};

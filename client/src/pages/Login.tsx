@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { User, Mail, Lock, LogOut, Car } from 'lucide-react';
 import { getUser, loginUser, logoutUser, UserProfile } from '../utils/authStore';
+import { authAPI } from '../utils/api';
 
 const Login: React.FC = () => {
   const [user, setUser] = useState<UserProfile>(getUser());
@@ -9,6 +10,8 @@ const Login: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -18,26 +21,50 @@ const Login: React.FC = () => {
   }, []);
 
   const handleGoogleSignIn = () => {
-    const profile = loginUser({
-      name: 'Google User',
-      email: 'user@gmail.com',
-      provider: 'google',
-      avatar: undefined,
-    });
-    setUser(profile);
-    navigate('/');
+    alert("Google Sign-In requires OAuth setup. Please use Email for now!");
   };
 
-  const handleEmailSubmit = (e: React.FormEvent) => {
+  const handleEmailSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!email.trim()) return;
-    const profile = loginUser({
-      name: isLogin ? email.split('@')[0] : (name || email.split('@')[0]),
-      email,
-      provider: 'email',
-    });
-    setUser(profile);
-    navigate('/');
+    if (!email.trim() || !password.trim()) return;
+    
+    setLoading(true);
+    setError('');
+    
+    try {
+      let data;
+      if (isLogin) {
+        data = await authAPI.login({ email, password });
+      } else {
+        if (!name.trim()) {
+          setError('Name is required');
+          setLoading(false);
+          return;
+        }
+        data = await authAPI.register({ name, email, password });
+      }
+      
+      const profile = loginUser({
+        id: data.user.id,
+        name: data.user.name,
+        email: data.user.email,
+        provider: 'email',
+        token: data.token
+      });
+      
+      // If user had cars in garage from cloud, merge them or sync them
+      if (data.user.garage && data.user.garage.length > 0) {
+         // for simplicity, we just trigger a garage update event
+         window.dispatchEvent(new Event('garage-updated'));
+      }
+      
+      setUser(profile);
+      navigate('/');
+    } catch (err: any) {
+      setError(err.message || 'Authentication failed');
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleLogout = () => {
@@ -97,6 +124,12 @@ const Login: React.FC = () => {
           </p>
         </div>
 
+        {error && (
+          <div className="bg-rose-50 border border-rose-200 text-rose-600 px-4 py-3 rounded-xl text-sm font-semibold text-center">
+            {error}
+          </div>
+        )}
+
         {/* Google Sign In */}
         <button
           onClick={handleGoogleSignIn}
@@ -155,9 +188,10 @@ const Login: React.FC = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-xl transition-colors shadow-sm"
+            disabled={loading}
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-4 rounded-xl transition-colors shadow-sm disabled:opacity-70"
           >
-            {isLogin ? 'Sign In' : 'Create Account'}
+            {loading ? 'Processing...' : (isLogin ? 'Sign In' : 'Create Account')}
           </button>
         </form>
 
