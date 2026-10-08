@@ -45,13 +45,20 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(clientDistPath, 'index.html'));
 });
 
-mongoose.connect(process.env.MONGODB_URI as string)
-  .then(() => {
-    console.log('[MongoDB] Connected successfully to Atlas cluster');
-    app.listen(PORT, () => {
-      console.log(`CarMachi server running on port ${PORT}`);
+const MONGODB_URI = process.env.MONGODB_URI;
+
+if (MONGODB_URI) {
+  mongoose.connect(MONGODB_URI)
+    .then(() => {
+      console.log('[MongoDB] Connected successfully to Atlas cluster');
+    })
+    .catch((err) => {
+      console.error('[MongoDB] Connection failed!', err.message);
     });
-  })
-  .catch((err) => {
-    console.error('[MongoDB] Connection failed!', err);
-  });
+} else {
+  console.warn('[MongoDB] No MONGODB_URI found. Auth features will be disabled.');
+}
+
+app.listen(PORT, () => {
+  console.log(`CarMachi server running on port ${PORT}`);
+});
