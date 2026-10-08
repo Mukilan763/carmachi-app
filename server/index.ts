@@ -1,4 +1,8 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import express from 'express';
+import mongoose from 'mongoose';
 import cors from 'cors';
 import path from 'path';
 import carsRouter from './routes/cars';
@@ -7,6 +11,7 @@ import valuationRouter from './routes/valuation';
 import forumRouter from './routes/forum';
 import liveRouter from './routes/live';
 import adminRouter from './routes/admin';
+import authRouter from './routes/auth';
 import { dataStore } from './dataStore';
 import { scheduleLiveScraping } from './scraper/backgroundManager';
 
@@ -23,6 +28,7 @@ app.use(cors());
 app.use(express.json());
 
 // API routes
+app.use('/api/auth', authRouter);
 app.use('/api/cars', carsRouter);
 app.use('/api/predict', predictionRouter);
 app.use('/api/valuation', valuationRouter);
@@ -39,6 +45,13 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(clientDistPath, 'index.html'));
 });
 
-app.listen(PORT, () => {
-  console.log(`CarMachi server running on port ${PORT}`);
-});
+mongoose.connect(process.env.MONGODB_URI as string)
+  .then(() => {
+    console.log('[MongoDB] Connected successfully to Atlas cluster');
+    app.listen(PORT, () => {
+      console.log(`CarMachi server running on port ${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.error('[MongoDB] Connection failed!', err);
+  });
