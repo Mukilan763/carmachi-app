@@ -138,6 +138,10 @@ const Navbar: React.FC = () => {
               <BarChart2 className="h-4 w-4" />
               <span>Valuation & Costs</span>
             </Link>
+            <Link to="/compare" className="text-gray-600 hover:text-violet-600 flex items-center space-x-1 transition-colors">
+              <span className="font-bold border border-current rounded-[4px] px-1 text-[10px]">VS</span>
+              <span>Compare</span>
+            </Link>
             <Link to="/forum" className="text-gray-600 hover:text-blue-600 flex items-center space-x-1 transition-colors">
               <MessageSquare className="h-4 w-4" />
               <span>Community Forum</span>

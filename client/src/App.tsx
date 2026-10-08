@@ -8,6 +8,7 @@ import CarDetail from './pages/CarDetail';
 import Prediction from './pages/Prediction';
 import Valuation from './pages/Valuation';
 import Forum from './pages/Forum';
+import Compare from './pages/Compare';
 import Garage from './pages/Garage';
 import Login from './pages/Login';
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/car/:id" element={<CarDetail />} />
             <Route path="/prediction" element={<Prediction />} />
             <Route path="/valuation" element={<Valuation />} />
+            <Route path="/compare" element={<Compare />} />
             <Route path="/forum" element={<Forum />} />
             <Route path="/garage" element={<Garage />} />
             <Route path="/login" element={<Login />} />
