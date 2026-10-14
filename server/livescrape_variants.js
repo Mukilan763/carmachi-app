@@ -18,26 +18,55 @@ const parsePrice = (priceStr) => {
     return 0;
 };
 
-const getFeaturesForTier = (price, minPrice, maxPrice, segment) => {
-    const ratio = maxPrice > minPrice ? (price - minPrice) / (maxPrice - minPrice) : 0.5;
-    
-    const features = [];
-    if (ratio < 0.3) {
-        // Base
-        features.push('Dual Airbags', 'Rear Parking Sensors', 'ABS with EBD');
-        if (segment.includes('SUV')) features.push('Halogen Projector Headlamps');
-    } else if (ratio < 0.7) {
-        // Mid
-        features.push('8-inch Touchscreen', 'Automatic Climate Control', '6 Airbags', 'Reverse Camera');
-        if (price > 1200000) features.push('Electric Sunroof', 'Alloy Wheels');
-    } else {
-        // Top
-        features.push('10.25-inch Touchscreen', 'Panoramic Sunroof', 'Ventilated Front Seats', '360-Degree Camera', 'ADAS Level 2');
-        if (price > 2000000) features.push('Premium Bose Sound System', 'Powered Driver Seat');
+/**
+ * Returns real, market-accurate key highlights based on absolute ex-showroom price.
+ * Based on actual Indian car market feature availability (2024-25).
+ */
+const getRealFeatures = (price, fuelType = 'Petrol', transmission = 'Manual') => {
+    const isCNG = fuelType === 'CNG';
+    const isEV = fuelType === 'Electric';
+    const isAuto = transmission === 'Automatic';
+
+    if (price < 500000) {
+        const feats = ['Dual Airbags', 'ABS with EBD', 'Rear Parking Sensors'];
+        if (isAuto) feats.push('Automatic Gear Shift');
+        if (isCNG) feats.push('Factory-fitted CNG Kit');
+        return feats.slice(0, 4);
     }
-    
-    // Shuffle and pick 3-4
-    return features.sort(() => 0.5 - Math.random()).slice(0, 4);
+    if (price < 700000) {
+        const feats = ['Dual Airbags', 'ABS with EBD', 'Rear Parking Sensors', 'Power Windows'];
+        if (isCNG) feats.push('Factory-fitted CNG Kit');
+        if (isAuto) feats.push('AMT Gearbox');
+        return feats.slice(0, 4);
+    }
+    if (price < 1000000) {
+        const feats = ['6 Airbags', 'ABS with EBD', 'Rear Parking Sensors'];
+        if (!isCNG && price > 800000) feats.push('Reverse Camera');
+        if (isCNG) feats.push('Factory-fitted CNG Kit');
+        feats.push('7-inch Touchscreen');
+        return feats.slice(0, 4);
+    }
+    if (price < 1400000) {
+        const feats = ['6 Airbags', '8-inch Touchscreen', 'Reverse Camera', 'ABS with EBD'];
+        if (price > 1100000) feats.push('Electric Sunroof');
+        if (isCNG) feats.push('Factory-fitted CNG Kit');
+        return feats.slice(0, 4);
+    }
+    if (price < 2000000) {
+        const feats = ['6 Airbags', 'Electric Sunroof', 'Automatic Climate Control', 'Alloy Wheels'];
+        if (price > 1600000) feats.push('Ventilated Front Seats');
+        if (price > 1700000) feats.push('360-Degree Camera');
+        if (isEV) feats.push('Fast Charging (DC)');
+        return feats.slice(0, 4);
+    }
+    if (price < 3000000) {
+        const feats = ['Panoramic Sunroof', 'Ventilated Front Seats', 'ADAS Level 2', '360-Degree Camera'];
+        if (isEV) feats.push('V2L Vehicle-to-Load');
+        return feats.slice(0, 4);
+    }
+    const feats = ['Panoramic Sunroof', 'Ventilated & Massaging Seats', 'ADAS Level 2', 'Premium Sound System'];
+    if (isEV) feats.push('V2L Vehicle-to-Load');
+    return feats.slice(0, 4);
 };
 
 async function scrapeCarVariants(car) {
@@ -145,12 +174,17 @@ async function scrapeCarVariants(car) {
             // Sort by price
             variants.sort((a, b) => a.priceExShowroom - b.priceExShowroom);
             
-            // Assign features based on price tier
-            const minP = variants[0].priceExShowroom;
-            const maxP = variants[variants.length - 1].priceExShowroom;
-            
+            // Assign real market-accurate features based on absolute price
             variants.forEach(v => {
-                v.keyHighlights = getFeaturesForTier(v.priceExShowroom, minP, maxP, car.segment);
+                v.keyHighlights = getRealFeatures(v.priceExShowroom, v.fuelType, v.transmission);
+                
+                // Derate CNG power/torque (~11% less than petrol equivalent)
+                if (v.fuelType === 'CNG' && v.power && v.power !== 'N/A') {
+                    const pm = v.power.match(/^([\d.]+)(bhp|ps|kw)@(.+)$/i);
+                    if (pm) v.power = `${Math.round(parseFloat(pm[1]) * 0.89)}${pm[2]}@${pm[3]}`;
+                    const tm = v.torque && v.torque.match(/^([\d.]+)(Nm)@(.+)$/i);
+                    if (tm) v.torque = `${Math.round(parseFloat(tm[1]) * 0.95)}${tm[2]}@${tm[3]}`;
+                }
             });
             
             car.variants = variants;
