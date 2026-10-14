@@ -142,6 +142,13 @@ const Navbar: React.FC = () => {
               <span className="font-bold border border-current rounded-[4px] px-1 text-[10px]">VS</span>
               <span>Compare</span>
             </Link>
+            <Link to="/road-lab" className="text-gray-600 hover:text-violet-600 flex items-center space-x-1 transition-colors">
+              <span className="text-xs">⚡</span>
+              <span>Road Lab</span>
+              <span className="bg-gradient-to-r from-violet-600 to-indigo-600 text-white text-[9px] font-black px-1.5 py-0.5 rounded-full uppercase tracking-wider">
+                Excl
+              </span>
+            </Link>
             <Link to="/forum" className="text-gray-600 hover:text-blue-600 flex items-center space-x-1 transition-colors">
               <MessageSquare className="h-4 w-4" />
               <span>Community Forum</span>

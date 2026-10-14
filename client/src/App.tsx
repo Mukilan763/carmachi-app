@@ -11,6 +11,7 @@ import Forum from './pages/Forum';
 import Compare from './pages/Compare';
 import Garage from './pages/Garage';
 import Login from './pages/Login';
+import RoadLab from './pages/RoadLab';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/prediction" element={<Prediction />} />
             <Route path="/valuation" element={<Valuation />} />
             <Route path="/compare" element={<Compare />} />
+            <Route path="/road-lab" element={<RoadLab />} />
             <Route path="/forum" element={<Forum />} />
             <Route path="/garage" element={<Garage />} />
             <Route path="/login" element={<Login />} />

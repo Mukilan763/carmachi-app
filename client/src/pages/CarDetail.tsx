@@ -4,6 +4,7 @@ import { carsAPI, liveAPI } from '../utils/api';
 import { formatPrice, formatPriceRange } from '../utils/formatPrice';
 import { Radio, Loader2, Newspaper, MapPin, Zap, Gauge, Leaf, ChevronRight } from 'lucide-react';
 import EmiCalculator from '../components/EmiCalculator';
+import IndianRoadRealityLab from '../components/IndianRoadRealityLab';
 
 // ─── City On-Road Multipliers (Major metros only) ────────────────────────────
 const CITY_MULTIPLIERS: Record<string, number> = {
@@ -352,6 +353,9 @@ const CarDetail: React.FC = () => {
 
       {/* ── Smart EMI Calculator ─────────────────────────────────────────────── */}
       {onRoadMin > 0 && <EmiCalculator basePrice={onRoadMin} />}
+
+      {/* ── Exclusive: Indian Road Reality Lab ─────────────────────────────── */}
+      <IndianRoadRealityLab car={car} selectedCity={selectedCity} />
 
       {/* ── Variant Lineup Table ─────────────────────────────────────────────── */}
       <div className="bg-white rounded-3xl p-6 md:p-8 shadow-sm border border-gray-100 mb-12">
