@@ -3,6 +3,17 @@ import path from 'path';
 import { dataStore } from '../dataStore';
 
 let isScraping = false;
+let scrapeTimeout: ReturnType<typeof setTimeout> | null = null;
+
+const SCRAPER_DIR = path.resolve(__dirname, '..'); // server/ root
+
+function resetScrapeFlag() {
+    isScraping = false;
+    if (scrapeTimeout) {
+        clearTimeout(scrapeTimeout);
+        scrapeTimeout = null;
+    }
+}
 
 export function runBackgroundScrape(trigger: string = 'Automated Cron') {
     if (isScraping) {
@@ -13,45 +24,48 @@ export function runBackgroundScrape(trigger: string = 'Automated Cron') {
     console.log(`[Scraper] Starting live background scrape. Triggered by: ${trigger}`);
     isScraping = true;
 
-    const scriptPath0 = path.resolve(__dirname, 'discover_new_cars.js');
-    const scriptPath1 = path.resolve(__dirname, '../livescrape_variants.js');
-    const scriptPath2 = path.resolve(__dirname, '../livescrape_specs.js');
+    // Safety net: force-reset flag after 30 minutes to prevent permanent lockout
+    scrapeTimeout = setTimeout(() => {
+        console.warn('[Scraper] Safety timeout hit (30min). Resetting isScraping flag.');
+        resetScrapeFlag();
+    }, 30 * 60 * 1000);
 
-    // Execute Phase 0: Discovery
+    const scriptPath0 = path.resolve(__dirname, 'discover_new_cars.js');
+    const scriptPath1 = path.resolve(SCRAPER_DIR, 'livescrape_variants.js');
+    const scriptPath2 = path.resolve(SCRAPER_DIR, 'livescrape_specs.js');
+
+    // Execute Phase 0: Discovery (non-fatal)
     console.log('[Scraper] Phase 0: Discovering newly launched cars...');
-    exec(`node "${scriptPath0}"`, (error0, stdout0, stderr0) => {
+    exec(`node "${scriptPath0}"`, { timeout: 120000 }, (error0, stdout0) => {
         if (error0) {
             console.error('[Scraper] Phase 0 Failed (Non-fatal):', error0.message);
         } else {
-            console.log(stdout0);
+            console.log('[Scraper] Phase 0 Output:', stdout0?.trim() || '(no output)');
         }
 
-        // Execute Variants Scrape
+        // Execute Phase 1: Variants & Pricing
         console.log('[Scraper] Phase 1: Scraping Variants & Pricing...');
-        exec(`node "${scriptPath1}"`, (error1, stdout1, stderr1) => {
+        exec(`node "${scriptPath1}"`, { timeout: 300000 }, (error1, stdout1) => {
             if (error1) {
                 console.error('[Scraper] Phase 1 Failed:', error1.message);
-                isScraping = false;
+                resetScrapeFlag();
                 return;
             }
-        
-        console.log('[Scraper] Phase 1 Complete. Triggering Phase 2: Specs Scraping...');
-        
-        // Execute Specs Scrape
-        exec(`node "${scriptPath2}"`, (error2, stdout2, stderr2) => {
-            isScraping = false;
+            console.log('[Scraper] Phase 1 Complete:', stdout1?.slice(-200) || '');
 
-            if (error2) {
-                console.error('[Scraper] Phase 2 Failed:', error2.message);
-                return;
-            }
-
-            console.log('[Scraper] Background scraping fully completed!');
-            
-            // Atomically hot-reload the data into the active Express server without downtime
-            dataStore.reloadCars();
+            // Execute Phase 2: Specs
+            console.log('[Scraper] Phase 2: Scraping Specs & Power...');
+            exec(`node "${scriptPath2}"`, { timeout: 300000 }, (error2, stdout2) => {
+                if (error2) {
+                    console.error('[Scraper] Phase 2 Failed:', error2.message);
+                } else {
+                    console.log('[Scraper] Phase 2 Complete:', stdout2?.slice(-200) || '');
+                    console.log('[Scraper] All phases complete! Hot-reloading data...');
+                    dataStore.reloadCars();
+                }
+                resetScrapeFlag();
+            });
         });
-    });
     });
 
     return { status: 'started', message: 'Background scraping pipeline triggered.' };

@@ -2,9 +2,21 @@ import React, { useEffect, useState, useMemo } from 'react';
 import CarCard from '../components/CarCard';
 import { carsAPI } from '../utils/api';
 
+const CarSkeleton = () => (
+  <div className="bg-white rounded-[1.5rem] border border-gray-100 overflow-hidden animate-pulse">
+    <div className="aspect-[16/9] bg-gray-200" />
+    <div className="p-5 space-y-3">
+      <div className="h-3 bg-gray-200 rounded-full w-1/3" />
+      <div className="h-5 bg-gray-200 rounded-full w-4/5" />
+      <div className="h-4 bg-gray-200 rounded-full w-1/2 mt-4" />
+    </div>
+  </div>
+);
+
 const ExploreCars: React.FC = () => {
   const [cars, setCars] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedBodyType, setSelectedBodyType] = useState('All');
   const [selectedBrand, setSelectedBrand] = useState('All');
@@ -18,6 +30,7 @@ const ExploreCars: React.FC = () => {
       })
       .catch(err => {
         console.error("Failed to load cars:", err);
+        setError('Could not connect to the server. Please try refreshing the page.');
         setLoading(false);
       });
   }, []);
@@ -123,10 +136,18 @@ const ExploreCars: React.FC = () => {
         </div>
       </div>
 
-      {loading ? (
-        <div className="text-center py-32">
-          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-violet-600 mx-auto"></div>
-          <div className="mt-4 text-gray-500 font-medium tracking-wide">Loading massive car catalog...</div>
+      {error ? (
+        <div className="text-center py-32 bg-rose-50 rounded-3xl border border-rose-200">
+          <div className="text-5xl mb-4">⚠️</div>
+          <h3 className="text-xl font-black text-rose-700">Connection Error</h3>
+          <p className="mt-2 text-rose-600">{error}</p>
+          <button onClick={() => window.location.reload()} className="mt-6 bg-rose-600 text-white px-6 py-2 rounded-full font-bold hover:bg-rose-700 transition-colors">
+            Retry
+          </button>
+        </div>
+      ) : loading ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+          {Array.from({ length: 15 }).map((_, i) => <CarSkeleton key={i} />)}
         </div>
       ) : filteredAndSortedCars.length === 0 ? (
         <div className="text-center py-24 bg-white/50 backdrop-blur rounded-3xl border border-gray-200 shadow-sm text-gray-500">

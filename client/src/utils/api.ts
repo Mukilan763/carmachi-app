@@ -5,15 +5,18 @@
 const API_BASE = '/api';
 
 async function fetchAPI<T>(endpoint: string, options?: RequestInit): Promise<T> {
+  const { headers: customHeaders, ...restOptions } = options || {};
   const response = await fetch(`${API_BASE}${endpoint}`, {
     headers: {
       'Content-Type': 'application/json',
+      ...(customHeaders as Record<string, string> || {}),
     },
-    ...options,
+    ...restOptions,
   });
 
   if (!response.ok) {
-    throw new Error(`API Error: ${response.status} ${response.statusText}`);
+    const body = await response.json().catch(() => ({}));
+    throw new Error(body?.error || `API Error: ${response.status} ${response.statusText}`);
   }
 
   return response.json();

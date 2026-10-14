@@ -17,9 +17,15 @@ const CarCard: React.FC<CarCardProps> = ({ id, name, brand, priceMin, priceMax, 
     <Link to={`/car/${id}`} className="bg-white rounded-[1.5rem] shadow-sm hover:shadow-2xl hover:shadow-violet-200/50 hover:-translate-y-2 transition-all duration-300 overflow-hidden group border border-gray-100 flex flex-col h-full relative z-10">
       <div className="aspect-[16/9] bg-gray-100 overflow-hidden relative">
         {imageUrl ? (
-          <img src={imageUrl} alt={name} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out" />
+          <img
+            src={imageUrl}
+            alt={name}
+            loading="lazy"
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
+            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+          />
         ) : (
-          <div className="w-full h-full flex items-center justify-center text-gray-400">No Image</div>
+          <div className="w-full h-full flex items-center justify-center text-gray-300 text-4xl bg-gray-50">🚗</div>
         )}
         
         {/* Animated Gradient Overlay */}
