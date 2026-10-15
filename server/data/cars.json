@@ -61,7 +61,7 @@
       {
         "id": "std--o--plcbm",
         "name": "STD (O)",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 370000,
@@ -77,7 +77,7 @@
       {
         "id": "lxi--o--fhz2t",
         "name": "LXI (O)",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 400000,
@@ -93,7 +93,7 @@
       {
         "id": "vxi--o--t6wn5",
         "name": "VXI (O)",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 452000,
@@ -109,7 +109,7 @@
       {
         "id": "lxi--o--s-cng-vlk4u",
         "name": "LXI (O) S-CNG",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 484000,
@@ -126,7 +126,7 @@
       {
         "id": "vxi--o--at-saezf",
         "name": "VXI (O) AT",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 497000,
@@ -143,7 +143,7 @@
       {
         "id": "vxi-plus--o--0d0m2",
         "name": "VXI Plus (O)",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 500000,
@@ -160,7 +160,7 @@
       {
         "id": "vxi--o--s-cng-cpme8",
         "name": "VXI (O) S-CNG",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 534000,
@@ -177,7 +177,7 @@
       {
         "id": "vxi-plus--o--at-b4y93",
         "name": "VXI Plus (O) AT",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 545000,
@@ -265,7 +265,7 @@
       {
         "id": "lxi-pvt4o",
         "name": "LXI",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 499000,
@@ -281,7 +281,7 @@
       {
         "id": "vxi-zlsww",
         "name": "VXI",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 554000,
@@ -298,7 +298,7 @@
       {
         "id": "lxi-cng-5gk97",
         "name": "LXI CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 594000,
@@ -315,7 +315,7 @@
       {
         "id": "zxi-v0n91",
         "name": "ZXI",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 598000,
@@ -332,7 +332,7 @@
       {
         "id": "vxi-at-akl31",
         "name": "VXI AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 599000,
@@ -349,7 +349,7 @@
       {
         "id": "zxi-plus-mnj4q",
         "name": "ZXI Plus",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 641000,
@@ -366,7 +366,7 @@
       {
         "id": "zxi-at-z8owa",
         "name": "ZXI AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 643000,
@@ -383,7 +383,7 @@
       {
         "id": "vxi-cng-c3zn3",
         "name": "VXI CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 649000,
@@ -400,7 +400,7 @@
       {
         "id": "zxi-plus-dual-tone-cetkb",
         "name": "ZXI Plus Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 652000,
@@ -417,7 +417,7 @@
       {
         "id": "zxi-plus-at-sgh89",
         "name": "ZXI Plus AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 686000,
@@ -434,7 +434,7 @@
       {
         "id": "zxi-plus-at-dual-tone-gs2er",
         "name": "ZXI Plus AT Dual tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 697000,
@@ -537,7 +537,7 @@
       {
         "id": "lxi-zru5u",
         "name": "LXi",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 584000,
@@ -554,7 +554,7 @@
       {
         "id": "vxi-pjyw1",
         "name": "VXi",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 668000,
@@ -571,7 +571,7 @@
       {
         "id": "vxi-opt-e1hbb",
         "name": "VXi Opt",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 694000,
@@ -588,7 +588,7 @@
       {
         "id": "vxi-amt-9tzuy",
         "name": "VXi AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 713000,
@@ -605,7 +605,7 @@
       {
         "id": "vxi-opt-amt-rykmb",
         "name": "VXi Opt AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 739000,
@@ -622,7 +622,7 @@
       {
         "id": "vxi-cng-ksi7b",
         "name": "VXi CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 757000,
@@ -639,7 +639,7 @@
       {
         "id": "zxi-4i11x",
         "name": "ZXi",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 762000,
@@ -656,7 +656,7 @@
       {
         "id": "vxi-opt-cng-5j95d",
         "name": "VXi Opt CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 783000,
@@ -673,7 +673,7 @@
       {
         "id": "maruti--vxi-cng-amt-razy8",
         "name": "Maruti  VXi CNG AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Automatic",
         "priceExShowroom": 792000,
@@ -690,7 +690,7 @@
       {
         "id": "zxi-amt-s5zbl",
         "name": "ZXi AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 807000,
@@ -707,7 +707,7 @@
       {
         "id": "maruti--vxi-opt-cng-amt-yehyq",
         "name": "Maruti  VXi Opt CNG AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Automatic",
         "priceExShowroom": 818000,
@@ -724,7 +724,7 @@
       {
         "id": "zxi-plus-f349y",
         "name": "ZXi Plus",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 829000,
@@ -741,7 +741,7 @@
       {
         "id": "zxi-plus-dt-7wtx9",
         "name": "ZXi Plus DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 844000,
@@ -758,7 +758,7 @@
       {
         "id": "zxi-cng-cnrce",
         "name": "ZXi CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 851000,
@@ -775,7 +775,7 @@
       {
         "id": "zxi-plus-amt-biwcp",
         "name": "ZXi Plus AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 874000,
@@ -792,7 +792,7 @@
       {
         "id": "maruti--zxi-cng-amt-4b5ie",
         "name": "Maruti  ZXi CNG AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Automatic",
         "priceExShowroom": 886000,
@@ -809,7 +809,7 @@
       {
         "id": "zxi-plus-amt-dt-gz3yi",
         "name": "ZXi Plus AMT DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 889000,
@@ -897,7 +897,7 @@
       {
         "id": "sigma-dhtw7",
         "name": "Sigma",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 599000,
@@ -914,7 +914,7 @@
       {
         "id": "delta-qekrf",
         "name": "Delta",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 700000,
@@ -931,7 +931,7 @@
       {
         "id": "delta-amt-tzjtn",
         "name": "Delta AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 750000,
@@ -948,7 +948,7 @@
       {
         "id": "delta-cng-6c4px",
         "name": "Delta CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 792000,
@@ -965,7 +965,7 @@
       {
         "id": "zeta-p6x24",
         "name": "Zeta",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 800000,
@@ -982,7 +982,7 @@
       {
         "id": "maruti--delta-cng-amt-y3c5p",
         "name": "Maruti  Delta CNG AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Automatic",
         "priceExShowroom": 832000,
@@ -999,7 +999,7 @@
       {
         "id": "zeta-amt-ctrie",
         "name": "Zeta AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 850000,
@@ -1016,7 +1016,7 @@
       {
         "id": "zeta-cng-vzb65",
         "name": "Zeta CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 892000,
@@ -1033,7 +1033,7 @@
       {
         "id": "alpha-n7k9d",
         "name": "Alpha",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 910000,
@@ -1050,7 +1050,7 @@
       {
         "id": "maruti--zeta-cng-amt-pi2kc",
         "name": "Maruti  Zeta CNG AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Automatic",
         "priceExShowroom": 932000,
@@ -1067,7 +1067,7 @@
       {
         "id": "alpha--o--3jttu",
         "name": "Alpha (O)",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 950000,
@@ -1084,7 +1084,7 @@
       {
         "id": "alpha-amt-7gav3",
         "name": "Alpha AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 960000,
@@ -1101,7 +1101,7 @@
       {
         "id": "alpha--o--amt-5obgn",
         "name": "Alpha (O) AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 999000,
@@ -1855,7 +1855,7 @@
       {
         "id": "sigma-xqz69",
         "name": "Sigma",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 690000,
@@ -1872,7 +1872,7 @@
       {
         "id": "delta-t80ht",
         "name": "Delta",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 775000,
@@ -1889,7 +1889,7 @@
       {
         "id": "sigma-cng-qoqm2",
         "name": "Sigma CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 794000,
@@ -1906,7 +1906,7 @@
       {
         "id": "delta-plus-gt7f1",
         "name": "Delta Plus",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 801000,
@@ -1923,7 +1923,7 @@
       {
         "id": "delta-amt-sinko",
         "name": "Delta AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 825000,
@@ -1940,7 +1940,7 @@
       {
         "id": "delta-plus-amt-abki4",
         "name": "Delta Plus AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 865000,
@@ -1957,7 +1957,7 @@
       {
         "id": "delta-cng-h8syn",
         "name": "Delta CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 874000,
@@ -1974,7 +1974,7 @@
       {
         "id": "delta-plus-turbo-6do2c",
         "name": "Delta Plus Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 897000,
@@ -1991,7 +1991,7 @@
       {
         "id": "zeta-turbo-pvajv",
         "name": "Zeta Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 976000,
@@ -2008,7 +2008,7 @@
       {
         "id": "alpha-turbo-t096h",
         "name": "Alpha Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1061000,
@@ -2025,7 +2025,7 @@
       {
         "id": "alpha-turbo-dt-kzvvv",
         "name": "Alpha Turbo DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1075000,
@@ -2042,7 +2042,7 @@
       {
         "id": "zeta-turbo-at-v5ghz",
         "name": "Zeta Turbo AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1104000,
@@ -2059,7 +2059,7 @@
       {
         "id": "alpha-turbo-at-ohv7m",
         "name": "Alpha Turbo AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1189000,
@@ -2076,7 +2076,7 @@
       {
         "id": "alpha-turbo-dt-at-6gr1a",
         "name": "Alpha Turbo DT AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1203000,
@@ -2284,7 +2284,7 @@
       {
         "id": "lxi-h8bjc",
         "name": "Lxi",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 890000,
@@ -2301,7 +2301,7 @@
       {
         "id": "vxi-umryv",
         "name": "VXi",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 995000,
@@ -2318,7 +2318,7 @@
       {
         "id": "vxi-cng-tdfqk",
         "name": "VXi CNG",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1094000,
@@ -2335,7 +2335,7 @@
       {
         "id": "zxi-ikqxf",
         "name": "Zxi",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1102000,
@@ -2352,7 +2352,7 @@
       {
         "id": "vxi-at-jxsys",
         "name": "VXI AT",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1130000,
@@ -2369,7 +2369,7 @@
       {
         "id": "zxi-plus-lx6vh",
         "name": "ZXI Plus",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1169000,
@@ -2386,7 +2386,7 @@
       {
         "id": "zxi-cng-e8ms7",
         "name": "ZXI CNG",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1200000,
@@ -2403,7 +2403,7 @@
       {
         "id": "zxi-at-lwgzl",
         "name": "ZXI AT",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1237000,
@@ -2420,7 +2420,7 @@
       {
         "id": "zxi-plus-at-pqwl5",
         "name": "ZXI Plus AT",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1314000,
@@ -2919,7 +2919,7 @@
       {
         "id": "sigma-v3gr7",
         "name": "Sigma",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 535000,
@@ -2953,7 +2953,7 @@
       {
         "id": "radiance-edition-f4gkc",
         "name": "Radiance Edition",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 549000,
@@ -3038,7 +3038,7 @@
       {
         "id": "delta-9im58",
         "name": "Delta",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 585000,
@@ -3072,7 +3072,7 @@
       {
         "id": "delta-dual-tone-amt-gr4pc",
         "name": "Delta Dual Tone AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 630000,
@@ -3089,7 +3089,7 @@
       {
         "id": "delta-amt-ofjpb",
         "name": "Delta AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 630000,
@@ -3106,7 +3106,7 @@
       {
         "id": "zeta-03mj9",
         "name": "Zeta",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 638000,
@@ -3157,7 +3157,7 @@
       {
         "id": "zeta-dual-tone-owb6d",
         "name": "Zeta Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 650000,
@@ -3191,7 +3191,7 @@
       {
         "id": "zeta-amt-gqhvz",
         "name": "Zeta AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 683000,
@@ -3259,7 +3259,7 @@
       {
         "id": "zeta-dual-tone-amt-rmzix",
         "name": "Zeta Dual Tone AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 695000,
@@ -3293,7 +3293,7 @@
       {
         "id": "alpha-c1jmc",
         "name": "Alpha",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 697000,
@@ -3310,7 +3310,7 @@
       {
         "id": "alpha-dual-tone-q1a2i",
         "name": "Alpha Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 710000,
@@ -3344,7 +3344,7 @@
       {
         "id": "alpha-amt-8bvsy",
         "name": "Alpha AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 742000,
@@ -3395,7 +3395,7 @@
       {
         "id": "alpha-dual-tone-amt-9vani",
         "name": "Alpha Dual Tone AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 755000,
@@ -3549,7 +3549,7 @@
       {
         "id": "sigma-4ptgr",
         "name": "Sigma",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 909000,
@@ -3566,7 +3566,7 @@
       {
         "id": "delta-bnyit",
         "name": "Delta",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 965000,
@@ -3583,7 +3583,7 @@
       {
         "id": "zeta-m595j",
         "name": "Zeta",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1006000,
@@ -3600,7 +3600,7 @@
       {
         "id": "delta-at-du77d",
         "name": "Delta AT",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1073000,
@@ -3617,7 +3617,7 @@
       {
         "id": "alpha-htubi",
         "name": "Alpha",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1082000,
@@ -3634,7 +3634,7 @@
       {
         "id": "zeta-at-848xe",
         "name": "Zeta AT",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1112000,
@@ -3651,7 +3651,7 @@
       {
         "id": "alpha-at-6426r",
         "name": "Alpha AT",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1189000,
@@ -3737,7 +3737,7 @@
       {
         "id": "era-yf06p",
         "name": "Era",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 600000,
@@ -3754,7 +3754,7 @@
       {
         "id": "magna-executive-7qiqi",
         "name": "Magna Executive",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 675000,
@@ -3771,7 +3771,7 @@
       {
         "id": "magna-ruva4",
         "name": "Magna",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 705000,
@@ -3788,7 +3788,7 @@
       {
         "id": "sportz-nziri",
         "name": "Sportz",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 785000,
@@ -3805,7 +3805,7 @@
       {
         "id": "sportz-opt-uth2w",
         "name": "Sportz Opt",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 839000,
@@ -3822,7 +3822,7 @@
       {
         "id": "sportz-opt-knight-1v5uo",
         "name": "Sportz Opt Knight",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 848000,
@@ -3839,7 +3839,7 @@
       {
         "id": "asta-xsgkb",
         "name": "Asta",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 871000,
@@ -3856,7 +3856,7 @@
       {
         "id": "sportz-ivt-ib2da",
         "name": "Sportz IVT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 886000,
@@ -3873,7 +3873,7 @@
       {
         "id": "asta-opt-h0jzz",
         "name": "Asta Opt",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 925000,
@@ -3890,7 +3890,7 @@
       {
         "id": "sportz-opt-ivt-ea927",
         "name": "Sportz Opt IVT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 931000,
@@ -3907,7 +3907,7 @@
       {
         "id": "asta-opt-dt-ftm0a",
         "name": "Asta Opt DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 940000,
@@ -3924,7 +3924,7 @@
       {
         "id": "asta-opt-ivt-bqmdm",
         "name": "Asta Opt IVT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1044000,
@@ -3941,7 +3941,7 @@
       {
         "id": "asta-opt-ivt-knight-b8nuz",
         "name": "Asta Opt iVT Knight",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1053000,
@@ -3958,7 +3958,7 @@
       {
         "id": "asta-opt-ivt-dt-rmfny",
         "name": "Asta Opt IVT DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1059000,
@@ -3975,7 +3975,7 @@
       {
         "id": "asta-opt-ivt-knight-dt-9s9d2",
         "name": "Asta Opt iVT Knight DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1068000,
@@ -4061,7 +4061,7 @@
       {
         "id": "hx-2-cc9wy",
         "name": "HX 2",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 800000,
@@ -4078,7 +4078,7 @@
       {
         "id": "hx-2-turbo-6j38i",
         "name": "HX 2 Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 894000,
@@ -4095,7 +4095,7 @@
       {
         "id": "hx-4-ik7ai",
         "name": "HX 4",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 900000,
@@ -4112,7 +4112,7 @@
       {
         "id": "hx-5-q1sqf",
         "name": "HX 5",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 956000,
@@ -4129,7 +4129,7 @@
       {
         "id": "hx-5-knight-a9ez2",
         "name": "HX 5 Knight",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 971000,
@@ -4146,7 +4146,7 @@
       {
         "id": "hx-5-turbo-t8ayf",
         "name": "HX 5 Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 993000,
@@ -4163,7 +4163,7 @@
       {
         "id": "hx-2-diesel-2ia22",
         "name": "HX 2 Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 995000,
@@ -4180,7 +4180,7 @@
       {
         "id": "hx-5-plus-4sl2v",
         "name": "HX 5 Plus",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1000000,
@@ -4197,7 +4197,7 @@
       {
         "id": "hx-5-plus-dual-tone-dp49o",
         "name": "HX 5 Plus Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1018000,
@@ -4214,7 +4214,7 @@
       {
         "id": "hx-6-0gp2g",
         "name": "HX 6",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1043000,
@@ -4231,7 +4231,7 @@
       {
         "id": "hx-6-dual-tone-rlk0f",
         "name": "HX 6 Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1061000,
@@ -4248,7 +4248,7 @@
       {
         "id": "hx-6t-8c0kc",
         "name": "HX 6T",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1089000,
@@ -4265,7 +4265,7 @@
       {
         "id": "hx-5-turbo-dct-9ld76",
         "name": "HX 5 Turbo DCT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1095000,
@@ -4282,7 +4282,7 @@
       {
         "id": "hx-5-diesel-7fggl",
         "name": "HX 5 Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1100000,
@@ -4299,7 +4299,7 @@
       {
         "id": "hx-6t-knight-0jvzk",
         "name": "HX 6T Knight",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1104000,
@@ -4316,7 +4316,7 @@
       {
         "id": "hx-6t-dual-tone-jcdi2",
         "name": "HX 6T Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1107000,
@@ -4333,7 +4333,7 @@
       {
         "id": "hx-5-knight-diesel-p3exs",
         "name": "HX 5 Knight Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1119000,
@@ -4350,7 +4350,7 @@
       {
         "id": "hx-6t-knight-dt-9jz03",
         "name": "HX 6T Knight DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1122000,
@@ -4367,7 +4367,7 @@
       {
         "id": "hx-5-diesel-at-r57xv",
         "name": "HX 5 Diesel AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1194000,
@@ -4384,7 +4384,7 @@
       {
         "id": "hx-8-turbo-s8wui",
         "name": "HX 8 Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1194000,
@@ -4401,7 +4401,7 @@
       {
         "id": "hx-8-turbo-dual-tone-sf3i1",
         "name": "HX 8 Turbo Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1212000,
@@ -4418,7 +4418,7 @@
       {
         "id": "hx-6-turbo-dct-x8gr3",
         "name": "HX 6 Turbo DCT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1221000,
@@ -4435,7 +4435,7 @@
       {
         "id": "hx-6-turbo-dct-dt-dyquq",
         "name": "HX 6 Turbo DCT DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1239000,
@@ -4452,7 +4452,7 @@
       {
         "id": "hx-7-diesel-blqx7",
         "name": "HX 7 Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1282000,
@@ -4469,7 +4469,7 @@
       {
         "id": "hx-7-diesel-dual-tone-ily2f",
         "name": "HX 7 Diesel Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1300000,
@@ -4486,7 +4486,7 @@
       {
         "id": "hx-8-turbo-dct-pu7is",
         "name": "HX 8 Turbo DCT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1303000,
@@ -4503,7 +4503,7 @@
       {
         "id": "hx-8-turbo-dct-dual-tone-nmt5d",
         "name": "HX 8 Turbo DCT Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1321000,
@@ -4520,7 +4520,7 @@
       {
         "id": "hx-8-diesel-at-g2bu1",
         "name": "HX 8 Diesel AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1377000,
@@ -4537,7 +4537,7 @@
       {
         "id": "hx-8-knight-diesel-at-pbsjo",
         "name": "HX 8 Knight Diesel AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1392000,
@@ -4554,7 +4554,7 @@
       {
         "id": "hx-8-diesel-at-dual-tone-c6bs1",
         "name": "HX 8 Diesel AT Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1395000,
@@ -4571,7 +4571,7 @@
       {
         "id": "hx-8-knight-diesel-at-dt-s0nz8",
         "name": "HX 8 Knight Diesel AT DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1410000,
@@ -4588,7 +4588,7 @@
       {
         "id": "hx-10-turbo-dct-wjn8x",
         "name": "HX 10 Turbo DCT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1468000,
@@ -4605,7 +4605,7 @@
       {
         "id": "hx-10-knight-turbo-dct-ws3xk",
         "name": "HX 10 Knight Turbo DCT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1482000,
@@ -4622,7 +4622,7 @@
       {
         "id": "hx-10-turbo-dct-dual-tone-mjrfb",
         "name": "HX 10 Turbo DCT Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1486000,
@@ -4639,7 +4639,7 @@
       {
         "id": "hx-10-knight-turbo-dct-dt-xhg5r",
         "name": "HX 10 Knight Turbo DCT DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1500000,
@@ -4656,7 +4656,7 @@
       {
         "id": "hx-10-diesel-at-w7vsk",
         "name": "HX 10 Diesel AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1565000,
@@ -4673,7 +4673,7 @@
       {
         "id": "hx-10-diesel-at-dual-tone-bbykk",
         "name": "HX 10 Diesel AT Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1583000,
@@ -7554,7 +7554,7 @@
       {
         "id": "e-2j0b5",
         "name": "E",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 600000,
@@ -7571,7 +7571,7 @@
       {
         "id": "s-corporate-8g84j",
         "name": "S Corporate",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 684000,
@@ -7588,7 +7588,7 @@
       {
         "id": "e-cng-6ieku",
         "name": "E CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 690000,
@@ -7605,7 +7605,7 @@
       {
         "id": "s-m1nmt",
         "name": "S",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 698000,
@@ -7622,7 +7622,7 @@
       {
         "id": "s-amt-xkzio",
         "name": "S AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 739000,
@@ -7639,7 +7639,7 @@
       {
         "id": "sx-n0je9",
         "name": "SX",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 777000,
@@ -7656,7 +7656,7 @@
       {
         "id": "s-cng-0mk3t",
         "name": "S CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 789000,
@@ -7673,7 +7673,7 @@
       {
         "id": "s-corporate-cng-reaek",
         "name": "S Corporate CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 798000,
@@ -7690,7 +7690,7 @@
       {
         "id": "sx-option-mpuj5",
         "name": "SX Option",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 823000,
@@ -7707,7 +7707,7 @@
       {
         "id": "sx-plus-amt-zh16e",
         "name": "SX Plus AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 842000,
@@ -7724,7 +7724,7 @@
       {
         "id": "sx-cng-koeso",
         "name": "SX CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 867000,
@@ -7812,7 +7812,7 @@
       {
         "id": "era-dkpu6",
         "name": "Era",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 560000,
@@ -7829,7 +7829,7 @@
       {
         "id": "magna-k88dk",
         "name": "Magna",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 637000,
@@ -7846,7 +7846,7 @@
       {
         "id": "corporate-0iqa5",
         "name": "Corporate",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 660000,
@@ -7863,7 +7863,7 @@
       {
         "id": "magna-amt-7ikjn",
         "name": "Magna AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 685000,
@@ -7880,7 +7880,7 @@
       {
         "id": "sportz-gx1r4",
         "name": "Sportz",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 693000,
@@ -7897,7 +7897,7 @@
       {
         "id": "sportz-dt-j9l96",
         "name": "Sportz DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 702000,
@@ -7914,7 +7914,7 @@
       {
         "id": "sportz-vibe-edition-fmvka",
         "name": "Sportz VIBE Edition",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 716000,
@@ -7931,7 +7931,7 @@
       {
         "id": "sportz-opt-w3cnm",
         "name": "Sportz Opt",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 718000,
@@ -7948,7 +7948,7 @@
       {
         "id": "corporate-amt-p4om1",
         "name": "Corporate AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 721000,
@@ -7965,7 +7965,7 @@
       {
         "id": "magna-cng-0ht23",
         "name": "Magna CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 733000,
@@ -7982,7 +7982,7 @@
       {
         "id": "sportz-amt-yt8ej",
         "name": "Sportz AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 745000,
@@ -7999,7 +7999,7 @@
       {
         "id": "asta-vibe-edition-ntk3s",
         "name": "Asta VIBE Edition",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 751000,
@@ -8016,7 +8016,7 @@
       {
         "id": "asta-2dh5e",
         "name": "Asta",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 757000,
@@ -8033,7 +8033,7 @@
       {
         "id": "sportz-cng-ldih8",
         "name": "Sportz CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 759000,
@@ -8050,7 +8050,7 @@
       {
         "id": "sportz-vibe-edition-amt-o1zlo",
         "name": "Sportz VIBE Edition AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 768000,
@@ -8067,7 +8067,7 @@
       {
         "id": "sportz-opt-amt-24lgl",
         "name": "Sportz Opt AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 772000,
@@ -8084,7 +8084,7 @@
       {
         "id": "sportz-opt-vibe-edition-amt-p5y8v",
         "name": "Sportz Opt VIBE Edition AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 780000,
@@ -8101,7 +8101,7 @@
       {
         "id": "sportz-duo-cng-iv2n9",
         "name": "Sportz Duo CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 783000,
@@ -8118,7 +8118,7 @@
       {
         "id": "asta-vibe-edition-amt-e5dbt",
         "name": "Asta VIBE Edition AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 803000,
@@ -8135,7 +8135,7 @@
       {
         "id": "asta-amt-omu3z",
         "name": "Asta AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 809000,
@@ -8223,7 +8223,7 @@
       {
         "id": "long-range-rwd-2z1hr",
         "name": "Long Range RWD",
-        "engine": "",
+        "engine": "72.6 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 4605000,
@@ -8310,7 +8310,7 @@
       {
         "id": "smart-1v8ae",
         "name": "Smart",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 740000,
@@ -8327,7 +8327,7 @@
       {
         "id": "smart-plus-mbrgq",
         "name": "Smart Plus",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 822000,
@@ -8344,7 +8344,7 @@
       {
         "id": "smart-cng-o0dnj",
         "name": "Smart CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 835000,
@@ -8361,7 +8361,7 @@
       {
         "id": "smart-plus-s-947tu",
         "name": "Smart Plus S",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 852000,
@@ -8378,7 +8378,7 @@
       {
         "id": "smart-plus-amt-q29ur",
         "name": "Smart Plus AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 892000,
@@ -8395,7 +8395,7 @@
       {
         "id": "pure-plus-sd2xs",
         "name": "Pure Plus",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 907000,
@@ -8412,7 +8412,7 @@
       {
         "id": "smart-plus-cng-dy3uk",
         "name": "Smart Plus CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 927000,
@@ -8429,7 +8429,7 @@
       {
         "id": "smart-plus-diesel-wzlel",
         "name": "Smart Plus Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 927000,
@@ -8446,7 +8446,7 @@
       {
         "id": "pure-plus-s-qkebu",
         "name": "Pure Plus S",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 940000,
@@ -8463,7 +8463,7 @@
       {
         "id": "smart-plus-s-cng-ozgic",
         "name": "Smart Plus S CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 957000,
@@ -8480,7 +8480,7 @@
       {
         "id": "smart-plus-s-diesel-1yn82",
         "name": "Smart Plus S Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 957000,
@@ -8497,7 +8497,7 @@
       {
         "id": "pure-plus-amt-jqupb",
         "name": "Pure Plus AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 972000,
@@ -8514,7 +8514,7 @@
       {
         "id": "pure-plus-ps-banp6",
         "name": "Pure Plus PS",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 972000,
@@ -8531,7 +8531,7 @@
       {
         "id": "pure-plus-cng-psegr",
         "name": "Pure Plus CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1000000,
@@ -8548,7 +8548,7 @@
       {
         "id": "pure-plus-diesel-rcqgn",
         "name": "Pure Plus Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1000000,
@@ -8565,7 +8565,7 @@
       {
         "id": "pure-plus-s-amt-y9w3b",
         "name": "Pure Plus S AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1000000,
@@ -8582,7 +8582,7 @@
       {
         "id": "pure-plus-s-cng-2j7gc",
         "name": "Pure Plus S CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1000000,
@@ -8599,7 +8599,7 @@
       {
         "id": "creative-camo-1uyu9",
         "name": "Creative CAMO",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1017000,
@@ -8616,7 +8616,7 @@
       {
         "id": "creative-7cjl4",
         "name": "Creative",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1017000,
@@ -8633,7 +8633,7 @@
       {
         "id": "pure-plus-ps-amt-99e30",
         "name": "Pure Plus PS AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1027000,
@@ -8650,7 +8650,7 @@
       {
         "id": "creative-plus-s-je45u",
         "name": "Creative Plus S",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1047000,
@@ -8667,7 +8667,7 @@
       {
         "id": "pure-plus-s-diesel-3hzzc",
         "name": "Pure Plus S Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1052000,
@@ -8684,7 +8684,7 @@
       {
         "id": "pure-plus-ps-cng-qqlka",
         "name": "Pure Plus PS CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1062000,
@@ -8701,7 +8701,7 @@
       {
         "id": "creative-plus-s-camo-ajqmn",
         "name": "Creative Plus S CAMO",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1072000,
@@ -8718,7 +8718,7 @@
       {
         "id": "pure-plus-ps-diesel-86a8b",
         "name": "Pure Plus PS Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1072000,
@@ -8735,7 +8735,7 @@
       {
         "id": "pure-plus-diesel-amt-vr6fx",
         "name": "Pure Plus Diesel AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1087000,
@@ -8752,7 +8752,7 @@
       {
         "id": "creative-amt-n41li",
         "name": "Creative AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1087000,
@@ -8769,7 +8769,7 @@
       {
         "id": "creative-plus-s-dark-fwfpd",
         "name": "Creative Plus S Dark",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1092000,
@@ -8786,7 +8786,7 @@
       {
         "id": "creative-camo-amt-210aa",
         "name": "Creative CAMO AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1112000,
@@ -8803,7 +8803,7 @@
       {
         "id": "creative-plus-s-amt-lfic4",
         "name": "Creative Plus S AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1117000,
@@ -8820,7 +8820,7 @@
       {
         "id": "creative-cng-owc48",
         "name": "Creative CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1122000,
@@ -8837,7 +8837,7 @@
       {
         "id": "pure-plus-ps-diesel-amt-7u1xw",
         "name": "Pure Plus PS Diesel AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1137000,
@@ -8854,7 +8854,7 @@
       {
         "id": "creative-diesel-fv31y",
         "name": "Creative Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1137000,
@@ -8871,7 +8871,7 @@
       {
         "id": "creative-plus-ps-dt-cxs92",
         "name": "Creative Plus PS DT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1140000,
@@ -8888,7 +8888,7 @@
       {
         "id": "creative-plus-s-camo-amt-s4o10",
         "name": "Creative Plus S CAMO AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1142000,
@@ -8905,7 +8905,7 @@
       {
         "id": "creative-dca-6gxwn",
         "name": "Creative DCA",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1142000,
@@ -8922,7 +8922,7 @@
       {
         "id": "creative-camo-cng-75nrs",
         "name": "Creative CAMO CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1147000,
@@ -8939,7 +8939,7 @@
       {
         "id": "creative-plus-s-cng-5smr7",
         "name": "Creative Plus S CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1152000,
@@ -8956,7 +8956,7 @@
       {
         "id": "creative-plus-s-dark-amt-7o4vv",
         "name": "Creative Plus S Dark AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1162000,
@@ -8973,7 +8973,7 @@
       {
         "id": "creative-camo-diesel-cxvem",
         "name": "Creative CAMO Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1162000,
@@ -8990,7 +8990,7 @@
       {
         "id": "creative-plus-s-diesel-o1oax",
         "name": "Creative Plus S Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1162000,
@@ -9007,7 +9007,7 @@
       {
         "id": "creative-camo-dca-nde8c",
         "name": "Creative CAMO DCA",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1167000,
@@ -9024,7 +9024,7 @@
       {
         "id": "creative-plus-ps-camo-lzwvo",
         "name": "Creative Plus PS CAMO",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1172000,
@@ -9041,7 +9041,7 @@
       {
         "id": "creative-plus-s-camo-cng-e3qeu",
         "name": "Creative Plus S CAMO CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1177000,
@@ -9058,7 +9058,7 @@
       {
         "id": "creative-plus-ps-dark-jl67n",
         "name": "Creative Plus PS Dark",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1187000,
@@ -9075,7 +9075,7 @@
       {
         "id": "creative-plus-s-camo-diesel-8kx84",
         "name": "Creative Plus S CAMO Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1187000,
@@ -9092,7 +9092,7 @@
       {
         "id": "creative-plus-s-dark-cng-2deey",
         "name": "Creative Plus S Dark CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1192000,
@@ -9109,7 +9109,7 @@
       {
         "id": "creative-diesel-amt-ua8c7",
         "name": "Creative Diesel AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1197000,
@@ -9126,7 +9126,7 @@
       {
         "id": "creative-plus-s-dark-diesel-fd3i0",
         "name": "Creative Plus S Dark Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1207000,
@@ -9143,7 +9143,7 @@
       {
         "id": "creative-camo-diesel-amt-845sk",
         "name": "Creative CAMO Diesel AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1222000,
@@ -9160,7 +9160,7 @@
       {
         "id": "creative-plus-s-diesel-amt-nkqc0",
         "name": "Creative Plus S Diesel AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1227000,
@@ -9177,7 +9177,7 @@
       {
         "id": "creative-plus-ps-dt-cng-wp5gd",
         "name": "Creative Plus PS DT CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1235000,
@@ -9194,7 +9194,7 @@
       {
         "id": "fearless-plus-ps-dt-w4x67",
         "name": "Fearless Plus PS DT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1235000,
@@ -9211,7 +9211,7 @@
       {
         "id": "creative-plus-ps-dt-diesel-f125p",
         "name": "Creative Plus PS DT Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1250000,
@@ -9228,7 +9228,7 @@
       {
         "id": "creative-plus-s-camo-diesel-amt-d6d5y",
         "name": "Creative Plus S CAMO Diesel AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1252000,
@@ -9245,7 +9245,7 @@
       {
         "id": "creative-plus-ps-dt-dca-ud5d9",
         "name": "Creative Plus PS DT DCA",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1255000,
@@ -9262,7 +9262,7 @@
       {
         "id": "fearless-plus-ps-dark-qbcqt",
         "name": "Fearless Plus PS Dark",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1262000,
@@ -9279,7 +9279,7 @@
       {
         "id": "fearless-plus-ps-camo-rgqde",
         "name": "Fearless Plus PS CAMO",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1267000,
@@ -9296,7 +9296,7 @@
       {
         "id": "creative-plus-s-dark-diesel-amt-h6gu1",
         "name": "Creative Plus S Dark Diesel AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1272000,
@@ -9313,7 +9313,7 @@
       {
         "id": "fearless-plus-ps-red-dark-nrn5x",
         "name": "Fearless Plus PS Red Dark",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1272000,
@@ -9330,7 +9330,7 @@
       {
         "id": "creative-plus-ps-camo-cng-rz7r3",
         "name": "Creative Plus PS CAMO CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1272000,
@@ -9347,7 +9347,7 @@
       {
         "id": "creative-plus-ps-dark-cng-nrokq",
         "name": "Creative Plus PS Dark CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1287000,
@@ -9364,7 +9364,7 @@
       {
         "id": "creative-plus-ps-camo-dca-8rm3l",
         "name": "Creative Plus PS CAMO DCA",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1292000,
@@ -9381,7 +9381,7 @@
       {
         "id": "creative-plus-ps-dark-diesel-a4jv9",
         "name": "Creative Plus PS Dark Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1302000,
@@ -9398,7 +9398,7 @@
       {
         "id": "creative-plus-ps-dark-dca-rx9ld",
         "name": "Creative Plus PS Dark DCA",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1304000,
@@ -9415,7 +9415,7 @@
       {
         "id": "creative-plus-ps-dt-diesel-amt-svdjq",
         "name": "Creative Plus PS DT Diesel AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1315000,
@@ -9432,7 +9432,7 @@
       {
         "id": "fearless-plus-ps-dt-cng-2mdzz",
         "name": "Fearless Plus PS DT CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1330000,
@@ -9449,7 +9449,7 @@
       {
         "id": "fearless-plus-ps-dark-dca-owpzg",
         "name": "Fearless Plus PS Dark DCA",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1345000,
@@ -9466,7 +9466,7 @@
       {
         "id": "fearless-plus-ps-dt-diesel-n05aq",
         "name": "Fearless Plus PS DT Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1345000,
@@ -9483,7 +9483,7 @@
       {
         "id": "fearless-plus-ps-dark-cng-sqg62",
         "name": "Fearless Plus PS Dark CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1362000,
@@ -9500,7 +9500,7 @@
       {
         "id": "creative-plus-ps-dark-diesel-amt-p8cu5",
         "name": "Creative Plus PS Dark Diesel AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1367000,
@@ -9517,7 +9517,7 @@
       {
         "id": "fearless-plus-ps-camo-cng-7a7q5",
         "name": "Fearless Plus PS CAMO CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1367000,
@@ -9534,7 +9534,7 @@
       {
         "id": "fearless-plus-a-ps-dt-dca-wgtlz",
         "name": "Fearless Plus A PS DT DCA",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1370000,
@@ -9551,7 +9551,7 @@
       {
         "id": "fearless-plus-ps-red-dark-cng-mvixg",
         "name": "Fearless Plus PS Red Dark CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1372000,
@@ -9568,7 +9568,7 @@
       {
         "id": "fearless-plus-ps-dark-diesel-uekev",
         "name": "Fearless Plus PS Dark Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1377000,
@@ -9585,7 +9585,7 @@
       {
         "id": "fearless-plus-ps-red-dark-diesel-4ylgq",
         "name": "Fearless Plus PS Red Dark Diesel",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1387000,
@@ -9602,7 +9602,7 @@
       {
         "id": "fearless-plus-a-ps-dark-dca-xry26",
         "name": "Fearless Plus A PS Dark DCA",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1397000,
@@ -9619,7 +9619,7 @@
       {
         "id": "fearless-plus-a-ps-camo-dca-gdx6u",
         "name": "Fearless Plus A PS CAMO DCA",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1402000,
@@ -9636,7 +9636,7 @@
       {
         "id": "fearless-plus-a-ps-red-dark-dca-zz3id",
         "name": "Fearless Plus A PS Red Dark DCA",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1407000,
@@ -9653,7 +9653,7 @@
       {
         "id": "fearless-plus-ps-dt-diesel-amt-3vwnm",
         "name": "Fearless Plus PS DT Diesel AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1422000,
@@ -9670,7 +9670,7 @@
       {
         "id": "fearless-plus-ps-dark-diesel-amt-nirhz",
         "name": "Fearless Plus PS Dark Diesel AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1442000,
@@ -9687,7 +9687,7 @@
       {
         "id": "fearless-plus-ps-red-dark-diesel-amt-jdjg9",
         "name": "Fearless Plus PS Red Dark Diesel AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1452000,
@@ -13509,7 +13509,7 @@
       {
         "id": "creative-plus-mr-899mr",
         "name": "Creative Plus MR",
-        "engine": "",
+        "engine": "30.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1249000,
@@ -13526,7 +13526,7 @@
       {
         "id": "fearless-mr-loawn",
         "name": "Fearless MR",
-        "engine": "",
+        "engine": "30.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1329000,
@@ -13543,7 +13543,7 @@
       {
         "id": "creative-45-1yznw",
         "name": "Creative 45",
-        "engine": "",
+        "engine": "30.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1434000,
@@ -13560,7 +13560,7 @@
       {
         "id": "fearless-45-oygz5",
         "name": "Fearless 45",
-        "engine": "",
+        "engine": "30.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1534000,
@@ -13577,7 +13577,7 @@
       {
         "id": "empowered-45-cre3a",
         "name": "Empowered 45",
-        "engine": "",
+        "engine": "30.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1634000,
@@ -13594,7 +13594,7 @@
       {
         "id": "empowered-plus-a-45-gc0vn",
         "name": "Empowered Plus A 45",
-        "engine": "",
+        "engine": "30.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1769000,
@@ -13611,7 +13611,7 @@
       {
         "id": "empowered-plus-a-45-red-dark-tab8x",
         "name": "Empowered Plus A 45 Red Dark",
-        "engine": "",
+        "engine": "30.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1789000,
@@ -13628,7 +13628,7 @@
       {
         "id": "empowered-plus-a-45-dark-22e6h",
         "name": "Empowered Plus A 45 Dark",
-        "engine": "",
+        "engine": "30.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1789000,
@@ -13715,7 +13715,7 @@
       {
         "id": "xm-jcavz",
         "name": "XM",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 570000,
@@ -13732,7 +13732,7 @@
       {
         "id": "xt-6wlt9",
         "name": "XT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 645000,
@@ -13749,7 +13749,7 @@
       {
         "id": "xta-amt-n0c3m",
         "name": "XTA AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 700000,
@@ -13766,7 +13766,7 @@
       {
         "id": "xz-xgey8",
         "name": "XZ",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 700000,
@@ -13783,7 +13783,7 @@
       {
         "id": "xt-cng-nn8to",
         "name": "XT CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 745000,
@@ -13800,7 +13800,7 @@
       {
         "id": "xza-amt-8vegz",
         "name": "XZA AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 755000,
@@ -13817,7 +13817,7 @@
       {
         "id": "xz-plus-hcusj",
         "name": "XZ Plus",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 755000,
@@ -13834,7 +13834,7 @@
       {
         "id": "xz-plus-lux-u70v8",
         "name": "XZ Plus Lux",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 800000,
@@ -13851,7 +13851,7 @@
       {
         "id": "xz-cng-5h17p",
         "name": "XZ CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 800000,
@@ -13868,7 +13868,7 @@
       {
         "id": "xza-plus-amt-clw7l",
         "name": "XZA Plus AMT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 810000,
@@ -13885,7 +13885,7 @@
       {
         "id": "xza-amt-cng-wlo94",
         "name": "XZA AMT CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Automatic",
         "priceExShowroom": 855000,
@@ -13902,7 +13902,7 @@
       {
         "id": "xz-plus-cng-7io5c",
         "name": "XZ Plus CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 855000,
@@ -13919,7 +13919,7 @@
       {
         "id": "xz-plus-lux-cng-hcj1f",
         "name": "XZ Plus Lux CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 900000,
@@ -13936,7 +13936,7 @@
       {
         "id": "xza-plus-amt-cng-o8gl9",
         "name": "XZA Plus AMT CNG",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "CNG",
         "transmission": "Automatic",
         "priceExShowroom": 910000,
@@ -16423,7 +16423,7 @@
       {
         "id": "w2-kj7lm",
         "name": "W2",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 799000,
@@ -16967,7 +16967,7 @@
       {
         "id": "w8-fr7ow",
         "name": "W8",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1151000,
@@ -16984,7 +16984,7 @@
       {
         "id": "w8-dt-9mlq6",
         "name": "W8 DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1166000,
@@ -17035,7 +17035,7 @@
       {
         "id": "w8-turbo-4cprm",
         "name": "W8 Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1201000,
@@ -17103,7 +17103,7 @@
       {
         "id": "w8-turbo-dt-sxv5v",
         "name": "W8 Turbo DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1216000,
@@ -17188,7 +17188,7 @@
       {
         "id": "w8-opt-5ohbt",
         "name": "W8 Opt",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1261000,
@@ -17239,7 +17239,7 @@
       {
         "id": "w8-opt-dt-ia16h",
         "name": "W8 Opt DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1276000,
@@ -17290,7 +17290,7 @@
       {
         "id": "w8-opt-turbo-zpaei",
         "name": "W8 Opt Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1301000,
@@ -17324,7 +17324,7 @@
       {
         "id": "w8-opt-turbo-dt-cy2b7",
         "name": "W8 Opt Turbo DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1316000,
@@ -17409,7 +17409,7 @@
       {
         "id": "w8-opt-amt-20gig",
         "name": "W8 Opt AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1331000,
@@ -17443,7 +17443,7 @@
       {
         "id": "w8-opt-amt-dt-wgyej",
         "name": "W8 Opt AMT DT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1346000,
@@ -17477,7 +17477,7 @@
       {
         "id": "w8-opt-diesel-a5rtq",
         "name": "W8 Opt Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1392000,
@@ -17528,7 +17528,7 @@
       {
         "id": "w8-opt-dt-diesel-jsw63",
         "name": "W8 Opt DT Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1408000,
@@ -17562,7 +17562,7 @@
       {
         "id": "w8-opt-amt-diesel-nw2ha",
         "name": "W8 Opt AMT Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1461000,
@@ -17579,7 +17579,7 @@
       {
         "id": "w8-opt-amt-dt-diesel-9sh7d",
         "name": "W8 Opt AMT DT Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1476000,
@@ -18260,7 +18260,7 @@
       {
         "id": "b4-py9mp",
         "name": "B4",
-        "engine": "",
+        "engine": "1493 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 857000,
@@ -18277,7 +18277,7 @@
       {
         "id": "b6-nu7nw",
         "name": "B6",
-        "engine": "",
+        "engine": "1493 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 937000,
@@ -18294,7 +18294,7 @@
       {
         "id": "b6-opt-xnczo",
         "name": "B6 Opt",
-        "engine": "",
+        "engine": "1493 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 969000,
@@ -18311,7 +18311,7 @@
       {
         "id": "b8-a7zmb",
         "name": "B8",
-        "engine": "",
+        "engine": "1493 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 999000,
@@ -18397,7 +18397,7 @@
       {
         "id": "mx1-5l30k",
         "name": "MX1",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 779000,
@@ -18414,7 +18414,7 @@
       {
         "id": "revx-m-aa2eu",
         "name": "REVX M",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 859000,
@@ -18431,7 +18431,7 @@
       {
         "id": "revx-m--o--2sg34",
         "name": "REVX M (O)",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 909000,
@@ -18448,7 +18448,7 @@
       {
         "id": "mx2-diesel-phzc0",
         "name": "MX2 diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 936000,
@@ -18465,7 +18465,7 @@
       {
         "id": "revx-edge-5xbu4",
         "name": "REVX EDGE",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 939000,
@@ -18482,7 +18482,7 @@
       {
         "id": "revx-edge--o--quei8",
         "name": "REVX EDGE (O)",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 989000,
@@ -18499,7 +18499,7 @@
       {
         "id": "revx-m--o--at-dkbms",
         "name": "REVX M (O) AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 999000,
@@ -18516,7 +18516,7 @@
       {
         "id": "ax5-jxrdu",
         "name": "AX5",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1000000,
@@ -18533,7 +18533,7 @@
       {
         "id": "revx-edge-diesel-owm3v",
         "name": "REVX EDGE Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1059000,
@@ -18550,7 +18550,7 @@
       {
         "id": "revx-edge-at-9f9qm",
         "name": "REVX EDGE AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1059000,
@@ -18567,7 +18567,7 @@
       {
         "id": "revx-edge--o--diesel-lhl9n",
         "name": "REVX EDGE (O) Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1109000,
@@ -18584,7 +18584,7 @@
       {
         "id": "revx-edge--o--at-cj15l",
         "name": "REVX EDGE (O) AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1109000,
@@ -18601,7 +18601,7 @@
       {
         "id": "revx-a-turbo-b50ia",
         "name": "REVX A Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1128000,
@@ -18618,7 +18618,7 @@
       {
         "id": "ax5-diesel-k2r7z",
         "name": "AX5 Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1140000,
@@ -18635,7 +18635,7 @@
       {
         "id": "ax5-at-c7o1e",
         "name": "AX5 AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1188000,
@@ -18669,7 +18669,7 @@
       {
         "id": "ax5-l-turbo-iitgr",
         "name": "AX5 L Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1203000,
@@ -18686,7 +18686,7 @@
       {
         "id": "ax7-turbo-0d2j3",
         "name": "AX7 Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1220000,
@@ -18703,7 +18703,7 @@
       {
         "id": "ax5-diesel-amt-dsut8",
         "name": "AX5 Diesel AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1220000,
@@ -18720,7 +18720,7 @@
       {
         "id": "revx-a-turbo-at-f6p5c",
         "name": "REVX A Turbo AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1240000,
@@ -18737,7 +18737,7 @@
       {
         "id": "ax7-diesel-48hdb",
         "name": "AX7 Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1304000,
@@ -18754,7 +18754,7 @@
       {
         "id": "ax5-l-turbo-at-7lm7l",
         "name": "AX5 L Turbo AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1328000,
@@ -18771,7 +18771,7 @@
       {
         "id": "ax7-l-turbo-it1as",
         "name": "AX7 L Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1333000,
@@ -18788,7 +18788,7 @@
       {
         "id": "ax7-turbo-at-gbcia",
         "name": "AX7 Turbo AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1334000,
@@ -18805,7 +18805,7 @@
       {
         "id": "ax7-diesel-amt-ncjzq",
         "name": "AX7 Diesel AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1380000,
@@ -18822,7 +18822,7 @@
       {
         "id": "ax7-l-diesel-dg772",
         "name": "AX7 L Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1408000,
@@ -18839,7 +18839,7 @@
       {
         "id": "ax7-l-turbo-at-ninc8",
         "name": "AX7 L Turbo AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1504000,
@@ -19568,7 +19568,7 @@
       {
         "id": "e-xvo00",
         "name": "E",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 673000,
@@ -19585,7 +19585,7 @@
       {
         "id": "s-eyayk",
         "name": "S",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 763000,
@@ -19602,7 +19602,7 @@
       {
         "id": "s-amt-hqxli",
         "name": "S AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 828000,
@@ -19619,7 +19619,7 @@
       {
         "id": "s-cng-e0hmx",
         "name": "S CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 849000,
@@ -19636,7 +19636,7 @@
       {
         "id": "g-7mjk5",
         "name": "G",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 865000,
@@ -19653,7 +19653,7 @@
       {
         "id": "g-amt-jtaqt",
         "name": "G AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 925000,
@@ -19670,7 +19670,7 @@
       {
         "id": "v-rvzw2",
         "name": "V",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 948000,
@@ -19687,7 +19687,7 @@
       {
         "id": "g-cng-tw5r6",
         "name": "G CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 953000,
@@ -19704,7 +19704,7 @@
       {
         "id": "v-amt-pb0q6",
         "name": "V AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 999000,
@@ -20270,7 +20270,7 @@
       {
         "id": "v-50qge",
         "name": "V",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 765000,
@@ -20287,7 +20287,7 @@
       {
         "id": "vx-1w436",
         "name": "VX",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 865000,
@@ -20304,7 +20304,7 @@
       {
         "id": "v-cvt-pm0fg",
         "name": "V CVT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 870000,
@@ -20321,7 +20321,7 @@
       {
         "id": "zx-gothz",
         "name": "ZX",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 939000,
@@ -20338,7 +20338,7 @@
       {
         "id": "vx-cvt-u133v",
         "name": "VX CVT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 940000,
@@ -20355,7 +20355,7 @@
       {
         "id": "zx-cvt-pn8tj",
         "name": "ZX CVT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1000000,
@@ -21513,7 +21513,7 @@
       {
         "id": "hte-nel8q",
         "name": "HTE",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 745000,
@@ -21530,7 +21530,7 @@
       {
         "id": "hte--o--2t9u7",
         "name": "HTE (O)",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 788000,
@@ -21547,7 +21547,7 @@
       {
         "id": "htk--o--9ejdu",
         "name": "HTK (O)",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 889000,
@@ -21564,7 +21564,7 @@
       {
         "id": "htk-plus-ajpp9",
         "name": "HTK Plus",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 928000,
@@ -21581,7 +21581,7 @@
       {
         "id": "hte--o--diesel-glrtc",
         "name": "HTE (O) Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 929000,
@@ -21598,7 +21598,7 @@
       {
         "id": "htk--o--turbo-imt-worb9",
         "name": "HTK (O) Turbo iMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 934000,
@@ -21615,7 +21615,7 @@
       {
         "id": "htk-plus--o--ovtd2",
         "name": "HTK Plus (O)",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 976000,
@@ -21632,7 +21632,7 @@
       {
         "id": "htk--o--turbo-dct-ar6rs",
         "name": "HTK (O) Turbo DCT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1000000,
@@ -21649,7 +21649,7 @@
       {
         "id": "htk--o--diesel-bhp5u",
         "name": "HTK (O) Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1000000,
@@ -21666,7 +21666,7 @@
       {
         "id": "hte--o--diesel-at-qdncn",
         "name": "HTE (O) Diesel AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1000000,
@@ -21683,7 +21683,7 @@
       {
         "id": "htk-plus--o--turbo-imt-cb6fr",
         "name": "HTK Plus (O) Turbo iMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1029000,
@@ -21700,7 +21700,7 @@
       {
         "id": "htk-plus-diesel-yu24i",
         "name": "HTK Plus Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1065000,
@@ -21717,7 +21717,7 @@
       {
         "id": "htk--o--diesel-at-yac4b",
         "name": "HTK (O) Diesel AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1109000,
@@ -21734,7 +21734,7 @@
       {
         "id": "htk-plus--o--turbo-dct-a4toc",
         "name": "HTK Plus (O) Turbo DCT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1109000,
@@ -21751,7 +21751,7 @@
       {
         "id": "htk-plus--o--diesel-f54me",
         "name": "HTK Plus (O) Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1115000,
@@ -21768,7 +21768,7 @@
       {
         "id": "htk-plus-diesel-at-2gqdx",
         "name": "HTK Plus Diesel AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1145000,
@@ -21785,7 +21785,7 @@
       {
         "id": "htx-diesel-h0w0v",
         "name": "HTX Diesel",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1160000,
@@ -21802,7 +21802,7 @@
       {
         "id": "htx-turbo-dct-0pntl",
         "name": "HTX Turbo DCT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1184000,
@@ -21819,7 +21819,7 @@
       {
         "id": "htk-plus--o--diesel-at-33url",
         "name": "HTK Plus (O) Diesel AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1195000,
@@ -21836,7 +21836,7 @@
       {
         "id": "htx-diesel-at-duanv",
         "name": "HTX Diesel AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1239000,
@@ -21853,7 +21853,7 @@
       {
         "id": "gtx-plus-turbo-dct-yhekh",
         "name": "GTX Plus Turbo DCT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1375000,
@@ -21870,7 +21870,7 @@
       {
         "id": "x-line-turbo-dct-5v4ud",
         "name": "X-line Turbo DCT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1389000,
@@ -21887,7 +21887,7 @@
       {
         "id": "gtx-plus-diesel-at-9q2am",
         "name": "GTX Plus Diesel AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Diesel",
         "transmission": "Automatic",
         "priceExShowroom": 1436000,
@@ -22094,7 +22094,7 @@
       {
         "id": "gt-line-5stbz",
         "name": "GT Line",
-        "engine": "",
+        "engine": "77.4 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 6941000,
@@ -22346,7 +22346,7 @@
       {
         "id": "mg--sprint-loza0",
         "name": "MG  Sprint",
-        "engine": "",
+        "engine": "1498 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 979000,
@@ -22363,7 +22363,7 @@
       {
         "id": "mg--shine-55hoe",
         "name": "MG  Shine",
-        "engine": "",
+        "engine": "1498 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1134000,
@@ -22380,7 +22380,7 @@
       {
         "id": "mg--select-1dg0t",
         "name": "MG  Select",
-        "engine": "",
+        "engine": "1498 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1240000,
@@ -22397,7 +22397,7 @@
       {
         "id": "mg--sharp-pro-mgaxg",
         "name": "MG  Sharp Pro",
-        "engine": "",
+        "engine": "1498 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1337000,
@@ -22414,7 +22414,7 @@
       {
         "id": "mg--select-cvt-90t2c",
         "name": "MG  Select CVT",
-        "engine": "",
+        "engine": "1498 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1356000,
@@ -22431,7 +22431,7 @@
       {
         "id": "mg--sharp-pro-cvt-82b2j",
         "name": "MG  Sharp Pro CVT",
-        "engine": "",
+        "engine": "1498 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1452000,
@@ -22448,7 +22448,7 @@
       {
         "id": "mg--savvy-pro-sangria-cvt-4htjf",
         "name": "MG  Savvy Pro Sangria CVT",
-        "engine": "",
+        "engine": "1498 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1530000,
@@ -22465,7 +22465,7 @@
       {
         "id": "mg--savvy-pro-cvt-mnzw9",
         "name": "MG  Savvy Pro CVT",
-        "engine": "",
+        "engine": "1498 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1530000,
@@ -22531,7 +22531,7 @@
       {
         "id": "mg--executive-xbxwb",
         "name": "MG  Executive",
-        "engine": "",
+        "engine": "50.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1799000,
@@ -22548,7 +22548,7 @@
       {
         "id": "mg--excite-pro-bbvnv",
         "name": "MG  Excite Pro",
-        "engine": "",
+        "engine": "50.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1875000,
@@ -22565,7 +22565,7 @@
       {
         "id": "mg--100-year-limited-edition-9g60m",
         "name": "MG  100 Year Limited Edition",
-        "engine": "",
+        "engine": "50.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1975000,
@@ -22582,7 +22582,7 @@
       {
         "id": "mg--exclusive-plus-dt-4h0md",
         "name": "MG  Exclusive Plus DT",
-        "engine": "",
+        "engine": "50.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1975000,
@@ -22599,7 +22599,7 @@
       {
         "id": "mg--exclusive-plus-wc080",
         "name": "MG  Exclusive Plus",
-        "engine": "",
+        "engine": "50.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1975000,
@@ -22616,7 +22616,7 @@
       {
         "id": "mg--essence-83db2",
         "name": "MG  Essence",
-        "engine": "",
+        "engine": "50.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 2075000,
@@ -22633,7 +22633,7 @@
       {
         "id": "mg--essence-dt-hfcur",
         "name": "MG  Essence DT",
-        "engine": "",
+        "engine": "50.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 2075000,
@@ -23772,7 +23772,7 @@
       {
         "id": "evolution-bxfqq",
         "name": "Evolution",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 453000,
@@ -23788,7 +23788,7 @@
       {
         "id": "evolution-amt-1rjdm",
         "name": "Evolution AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 490000,
@@ -23805,7 +23805,7 @@
       {
         "id": "climber-hp2en",
         "name": "Climber",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 515000,
@@ -23837,7 +23837,7 @@
       {
         "id": "climber-amt-1npch",
         "name": "Climber AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 561000,
@@ -23940,7 +23940,7 @@
       {
         "id": "authentic-lxuro",
         "name": "Authentic",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 581000,
@@ -23957,7 +23957,7 @@
       {
         "id": "evolution-xv86z",
         "name": "Evolution",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 659000,
@@ -23974,7 +23974,7 @@
       {
         "id": "evolution-plus-27mko",
         "name": "Evolution Plus",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 703000,
@@ -23991,7 +23991,7 @@
       {
         "id": "evolution-amt-nrgh4",
         "name": "Evolution AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 703000,
@@ -24008,7 +24008,7 @@
       {
         "id": "evolution-plus-amt-133eg",
         "name": "Evolution Plus AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 749000,
@@ -24025,7 +24025,7 @@
       {
         "id": "techno-dt-4kyam",
         "name": "Techno DT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 760000,
@@ -24042,7 +24042,7 @@
       {
         "id": "techno-usyhz",
         "name": "Techno",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 760000,
@@ -24059,7 +24059,7 @@
       {
         "id": "evolution-plus-turbo-g97zx",
         "name": "Evolution Plus Turbo",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 793000,
@@ -24076,7 +24076,7 @@
       {
         "id": "techno-dt-amt-dq3gl",
         "name": "Techno DT AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 810000,
@@ -24093,7 +24093,7 @@
       {
         "id": "techno-amt-gyseh",
         "name": "Techno AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 810000,
@@ -24110,7 +24110,7 @@
       {
         "id": "techno-turbo-3qrv0",
         "name": "Techno Turbo",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 850000,
@@ -24127,7 +24127,7 @@
       {
         "id": "emotion-dt-08p2s",
         "name": "Emotion DT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 850000,
@@ -24144,7 +24144,7 @@
       {
         "id": "emotion-2qcd5",
         "name": "Emotion",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 850000,
@@ -24161,7 +24161,7 @@
       {
         "id": "techno-turbo-dt-cvt-apgei",
         "name": "Techno Turbo DT CVT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 940000,
@@ -24178,7 +24178,7 @@
       {
         "id": "emotion-turbo-dt-8our6",
         "name": "Emotion Turbo DT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 940000,
@@ -24195,7 +24195,7 @@
       {
         "id": "emotion-turbo-hojv9",
         "name": "Emotion Turbo",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 940000,
@@ -24212,7 +24212,7 @@
       {
         "id": "techno-turbo-cvt-bo1t0",
         "name": "Techno Turbo CVT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 940000,
@@ -24229,7 +24229,7 @@
       {
         "id": "emotion-turbo-dt-cvt-afsb6",
         "name": "Emotion Turbo DT CVT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1040000,
@@ -24246,7 +24246,7 @@
       {
         "id": "emotion-turbo-cvt-mv3ea",
         "name": "Emotion Turbo CVT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1040000,
@@ -24332,7 +24332,7 @@
       {
         "id": "visia-2a6wl",
         "name": "Visia",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 568000,
@@ -24349,7 +24349,7 @@
       {
         "id": "visia-plus-qcclc",
         "name": "Visia Plus",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 622000,
@@ -24366,7 +24366,7 @@
       {
         "id": "visia-amt-b7qij",
         "name": "Visia AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 627000,
@@ -24383,7 +24383,7 @@
       {
         "id": "visia-cng-y8dvt",
         "name": "Visia CNG",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 643000,
@@ -24400,7 +24400,7 @@
       {
         "id": "acenta-vyz3a",
         "name": "Acenta",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 683000,
@@ -24417,7 +24417,7 @@
       {
         "id": "visia-plus-cng-tnyb0",
         "name": "Visia Plus CNG",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 697000,
@@ -24434,7 +24434,7 @@
       {
         "id": "acenta-amt-ui4fj",
         "name": "Acenta AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 738000,
@@ -24451,7 +24451,7 @@
       {
         "id": "n-connecta-pnvjs",
         "name": "N Connecta",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 746000,
@@ -24468,7 +24468,7 @@
       {
         "id": "acenta-cng-tocek",
         "name": "Acenta CNG",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 758000,
@@ -24485,7 +24485,7 @@
       {
         "id": "kuro-edition-3diji",
         "name": "KURO Edition",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 781000,
@@ -24502,7 +24502,7 @@
       {
         "id": "n-connecta-amt-1i3hf",
         "name": "N Connecta AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 801000,
@@ -24519,7 +24519,7 @@
       {
         "id": "n-connecta-cng-klua9",
         "name": "N Connecta CNG",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 821000,
@@ -24536,7 +24536,7 @@
       {
         "id": "kuro-edition-amt-q4lwj",
         "name": "KURO Edition AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 836000,
@@ -24553,7 +24553,7 @@
       {
         "id": "tekna-rps9v",
         "name": "Tekna",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 839000,
@@ -24570,7 +24570,7 @@
       {
         "id": "tekna-plus-i47zk",
         "name": "Tekna Plus",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 872000,
@@ -24587,7 +24587,7 @@
       {
         "id": "n-connecta-turbo-rwtjo",
         "name": "N Connecta Turbo",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 877000,
@@ -24604,7 +24604,7 @@
       {
         "id": "tekna-amt-j2qhk",
         "name": "Tekna AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 894000,
@@ -24621,7 +24621,7 @@
       {
         "id": "kuro-edition-turbo-9qtu7",
         "name": "KURO Edition Turbo",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 912000,
@@ -24638,7 +24638,7 @@
       {
         "id": "tekna-cng-l3dh9",
         "name": "Tekna CNG",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 914000,
@@ -24655,7 +24655,7 @@
       {
         "id": "acenta-turbo-cvt-amlus",
         "name": "Acenta Turbo CVT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 926000,
@@ -24672,7 +24672,7 @@
       {
         "id": "tekna-plus-amt-yu65o",
         "name": "Tekna Plus AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 927000,
@@ -24689,7 +24689,7 @@
       {
         "id": "tekna-plus-cng-oe92s",
         "name": "Tekna Plus CNG",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 947000,
@@ -24706,7 +24706,7 @@
       {
         "id": "tekna-turbo-ttw69",
         "name": "Tekna Turbo",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 957000,
@@ -24723,7 +24723,7 @@
       {
         "id": "n-connecta-turbo-cvt-6b52o",
         "name": "N Connecta Turbo CVT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 970000,
@@ -24740,7 +24740,7 @@
       {
         "id": "tekna-plus-turbo-gofe6",
         "name": "Tekna Plus Turbo",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 991000,
@@ -24757,7 +24757,7 @@
       {
         "id": "kuro-edition-turbo-cvt-6gc5b",
         "name": "KURO Edition Turbo CVT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 999000,
@@ -24774,7 +24774,7 @@
       {
         "id": "tekna-turbo-cvt-vc2w1",
         "name": "Tekna Turbo CVT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1065000,
@@ -24791,7 +24791,7 @@
       {
         "id": "tekna-plus-turbo-cvt-a0ww3",
         "name": "Tekna Plus Turbo CVT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1099000,
@@ -25372,7 +25372,7 @@
       {
         "id": "dynamic-kfy3b",
         "name": "Dynamic",
-        "engine": "",
+        "engine": "60.48 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 2499000,
@@ -25389,7 +25389,7 @@
       {
         "id": "premium-hwswv",
         "name": "Premium",
-        "engine": "",
+        "engine": "60.48 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 3035000,
@@ -25406,7 +25406,7 @@
       {
         "id": "superior-1dmmq",
         "name": "Superior",
-        "engine": "",
+        "engine": "60.48 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 3449000,
@@ -27548,7 +27548,7 @@
       {
         "id": "lxi-turbo-cqb8t",
         "name": "LXi Turbo",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 750000,
@@ -27565,7 +27565,7 @@
       {
         "id": "lxi-bfd8t",
         "name": "LXi",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 835000,
@@ -27582,7 +27582,7 @@
       {
         "id": "vxi-turbo-owdm0",
         "name": "VXi Turbo",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 865000,
@@ -27599,7 +27599,7 @@
       {
         "id": "vxi-vgu85",
         "name": "VXi",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 931000,
@@ -27616,7 +27616,7 @@
       {
         "id": "lxi-cng-itjfh",
         "name": "LXi CNG",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 940000,
@@ -27633,7 +27633,7 @@
       {
         "id": "zxi-turbo-bz6za",
         "name": "ZXi Turbo",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 995000,
@@ -27650,7 +27650,7 @@
       {
         "id": "vxi-cng-3wtil",
         "name": "VXi CNG",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 999000,
@@ -27667,7 +27667,7 @@
       {
         "id": "zxi-turbo-dual-tone-8l4iy",
         "name": "ZXi Turbo Dual Tone",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1009000,
@@ -27684,7 +27684,7 @@
       {
         "id": "zxi-1z7b4",
         "name": "ZXi",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1055000,
@@ -27701,7 +27701,7 @@
       {
         "id": "vxi-at-n5ln0",
         "name": "VXi AT",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1061000,
@@ -27718,7 +27718,7 @@
       {
         "id": "zxi-dual-tone-psd7n",
         "name": "ZXi Dual Tone",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1071000,
@@ -27735,7 +27735,7 @@
       {
         "id": "zxi-plus-turbo-vub36",
         "name": "ZXi Plus Turbo",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1126000,
@@ -27752,7 +27752,7 @@
       {
         "id": "zxi-plus-turbo-dual-tone-ol511",
         "name": "ZXi Plus Turbo Dual Tone",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1142000,
@@ -27769,7 +27769,7 @@
       {
         "id": "zxi-cng-mtb7p",
         "name": "ZXi CNG",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1160000,
@@ -27786,7 +27786,7 @@
       {
         "id": "zxi-cng-dual-tone-vc37x",
         "name": "ZXi CNG Dual Tone",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1176000,
@@ -27803,7 +27803,7 @@
       {
         "id": "zxi-at-pyyd0",
         "name": "ZXi AT",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1185000,
@@ -27820,7 +27820,7 @@
       {
         "id": "zxi-at-dual-tone-tnw0i",
         "name": "ZXi AT Dual Tone",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1201000,
@@ -27837,7 +27837,7 @@
       {
         "id": "zxi-plus-at-k96so",
         "name": "ZXi Plus AT",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1355000,
@@ -27854,7 +27854,7 @@
       {
         "id": "zxi-plus-at-dual-tone-k9dkp",
         "name": "ZXi Plus AT Dual Tone",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1371000,
@@ -27959,7 +27959,7 @@
       {
         "id": "lxi-ff6bz",
         "name": "LXI",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 657000,
@@ -27993,7 +27993,7 @@
       {
         "id": "vxi-myxed",
         "name": "VXI",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 749000,
@@ -28010,7 +28010,7 @@
       {
         "id": "vxi-at-7mw1i",
         "name": "VXI AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 794000,
@@ -28061,7 +28061,7 @@
       {
         "id": "zxi-xpldf",
         "name": "ZXI",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 817000,
@@ -28095,7 +28095,7 @@
       {
         "id": "vxi-cng-5q5ly",
         "name": "VXI CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 844000,
@@ -28112,7 +28112,7 @@
       {
         "id": "zxi-at-rbsh0",
         "name": "ZXI AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 862000,
@@ -28163,7 +28163,7 @@
       {
         "id": "zxi-plus-euyxk",
         "name": "ZXI Plus",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 889000,
@@ -28197,7 +28197,7 @@
       {
         "id": "zxi-cng-gfl2w",
         "name": "ZXI CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 912000,
@@ -28214,7 +28214,7 @@
       {
         "id": "zxi-plus-at-89tu8",
         "name": "ZXI Plus AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 934000,
@@ -28319,7 +28319,7 @@
       {
         "id": "std--o--9duon",
         "name": "STD (O)",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 350000,
@@ -28335,7 +28335,7 @@
       {
         "id": "lxi--o--0ih9s",
         "name": "LXi (O)",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 382000,
@@ -28351,7 +28351,7 @@
       {
         "id": "vxi--o--a9kzu",
         "name": "VXI (O)",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 432000,
@@ -28367,7 +28367,7 @@
       {
         "id": "lxi--o--cng-j6qxm",
         "name": "LXI (O) CNG",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 464000,
@@ -28384,7 +28384,7 @@
       {
         "id": "vxi--o--at-dsssw",
         "name": "VXi (O) AT",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 477000,
@@ -28401,7 +28401,7 @@
       {
         "id": "vxi-plus--o--sry1w",
         "name": "VXi Plus (O)",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 482000,
@@ -28417,7 +28417,7 @@
       {
         "id": "vxi--o--cng-m9jno",
         "name": "VXI (O) CNG",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 514000,
@@ -28434,7 +28434,7 @@
       {
         "id": "vxi-plus--o--at-398wm",
         "name": "VXi Plus (O) AT",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 527000,
@@ -28522,7 +28522,7 @@
       {
         "id": "lxi-jjhuz",
         "name": "LXI",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 470000,
@@ -28538,7 +28538,7 @@
       {
         "id": "vxi-rymmv",
         "name": "VXI",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 518000,
@@ -28555,7 +28555,7 @@
       {
         "id": "vxi-amt-1d9ro",
         "name": "VXI AMT",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 563000,
@@ -28572,7 +28572,7 @@
       {
         "id": "zxi-gzkmp",
         "name": "ZXI",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 573000,
@@ -28589,7 +28589,7 @@
       {
         "id": "vxi-cng-pia41",
         "name": "VXI CNG",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 598000,
@@ -28606,7 +28606,7 @@
       {
         "id": "zxi-amt-jm66v",
         "name": "ZXI AMT",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 618000,
@@ -28623,7 +28623,7 @@
       {
         "id": "zxi-plus-5iko2",
         "name": "ZXI Plus",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 630000,
@@ -28640,7 +28640,7 @@
       {
         "id": "zxi-plus-amt-jorug",
         "name": "ZXI Plus AMT",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 675000,
@@ -28728,7 +28728,7 @@
       {
         "id": "5-seater-std-3bx66",
         "name": "5 Seater STD",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 528000,
@@ -28745,7 +28745,7 @@
       {
         "id": "6-seater-std-s5p8f",
         "name": "6 Seater STD",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 555000,
@@ -28762,7 +28762,7 @@
       {
         "id": "5-seater-ac-hf9z8",
         "name": "5 Seater AC",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 561000,
@@ -28779,7 +28779,7 @@
       {
         "id": "5-seater-ac-cng-yb08a",
         "name": "5 Seater AC CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 646000,
@@ -29039,7 +29039,7 @@
       {
         "id": "smart-19-medium-range-w7be2",
         "name": "Smart 19 Medium Range",
-        "engine": "",
+        "engine": "19.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 699000,
@@ -29056,7 +29056,7 @@
       {
         "id": "pure-plus-19-medium-range-abvga",
         "name": "Pure Plus 19 Medium Range",
-        "engine": "",
+        "engine": "19.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 864000,
@@ -29073,7 +29073,7 @@
       {
         "id": "pure-plus-24-long-range-wnbr9",
         "name": "Pure Plus 24 Long Range",
-        "engine": "",
+        "engine": "24 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 964000,
@@ -29090,7 +29090,7 @@
       {
         "id": "creative-plus-24-long-range-009yb",
         "name": "Creative Plus 24 Long Range",
-        "engine": "",
+        "engine": "24 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1009000,
@@ -29176,7 +29176,7 @@
       {
         "id": "xe-0q65z",
         "name": "XE",
-        "engine": "",
+        "engine": "26 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1249000,
@@ -29193,7 +29193,7 @@
       {
         "id": "xt-1kayj",
         "name": "XT",
-        "engine": "",
+        "engine": "26 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1299000,
@@ -29210,7 +29210,7 @@
       {
         "id": "xz-plus-y7f90",
         "name": "XZ Plus",
-        "engine": "",
+        "engine": "26 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1349000,
@@ -29227,7 +29227,7 @@
       {
         "id": "xz-plus-lux-950d9",
         "name": "XZ Plus LUX",
-        "engine": "",
+        "engine": "26 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1375000,
@@ -29314,7 +29314,7 @@
       {
         "id": "ec-pro-34-5-kwh-5qyxe",
         "name": "EC Pro 34.5 kWh",
-        "engine": "",
+        "engine": "34.5 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1549000,
@@ -29331,7 +29331,7 @@
       {
         "id": "el-pro-34-5-kwh-23zir",
         "name": "EL Pro 34.5 kWh",
-        "engine": "",
+        "engine": "34.5 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1674000,
@@ -29348,7 +29348,7 @@
       {
         "id": "el-pro-dt-34-5-kwh-rekmo",
         "name": "EL Pro DT 34.5 kWh",
-        "engine": "",
+        "engine": "34.5 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1694000,
@@ -29365,7 +29365,7 @@
       {
         "id": "el-pro-39-4-kwh-icivd",
         "name": "EL Pro 39.4 kWh",
-        "engine": "",
+        "engine": "39.4 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1749000,
@@ -29382,7 +29382,7 @@
       {
         "id": "el-pro-dt-39-4-kwh-9ivx7",
         "name": "EL Pro DT 39.4 kWh",
-        "engine": "",
+        "engine": "39.4 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1769000,
@@ -29469,7 +29469,7 @@
       {
         "id": "n4-43kc7",
         "name": "N4",
-        "engine": "",
+        "engine": "1493 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 906000,
@@ -29486,7 +29486,7 @@
       {
         "id": "n8-amanb",
         "name": "N8",
-        "engine": "",
+        "engine": "1493 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 969000,
@@ -29503,7 +29503,7 @@
       {
         "id": "n10-5gkd7",
         "name": "N10",
-        "engine": "",
+        "engine": "1493 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 997000,
@@ -29520,7 +29520,7 @@
       {
         "id": "n10-r-k4kfp",
         "name": "N10 R",
-        "engine": "",
+        "engine": "1493 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1000000,
@@ -29552,7 +29552,7 @@
       {
         "id": "n10-opt-vrm90",
         "name": "N10 Opt",
-        "engine": "",
+        "engine": "1493 cc",
         "fuelType": "Diesel",
         "transmission": "Manual",
         "priceExShowroom": 1085000,
@@ -30098,7 +30098,7 @@
       {
         "id": "e-ox9yn",
         "name": "E",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 979000,
@@ -30115,7 +30115,7 @@
       {
         "id": "s-v1gsw",
         "name": "S",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1077000,
@@ -30132,7 +30132,7 @@
       {
         "id": "s-cng-e7jdq",
         "name": "S CNG",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 1169000,
@@ -30149,7 +30149,7 @@
       {
         "id": "g-3jxuq",
         "name": "G",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1193000,
@@ -30166,7 +30166,7 @@
       {
         "id": "s-at-t0nwj",
         "name": "S AT",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1235000,
@@ -30183,7 +30183,7 @@
       {
         "id": "v-zx3is",
         "name": "V",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1270000,
@@ -30200,7 +30200,7 @@
       {
         "id": "g-at-k6lg3",
         "name": "G AT",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1344000,
@@ -30217,7 +30217,7 @@
       {
         "id": "v-at-fx6kf",
         "name": "V AT",
-        "engine": "",
+        "engine": "1462 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1421000,
@@ -30305,7 +30305,7 @@
       {
         "id": "e-ix3yf",
         "name": "E",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 743000,
@@ -30322,7 +30322,7 @@
       {
         "id": "s-5xv5r",
         "name": "S",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 833000,
@@ -30339,7 +30339,7 @@
       {
         "id": "e-cng-hlxc6",
         "name": "E CNG",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "CNG",
         "transmission": "Manual",
         "priceExShowroom": 845000,
@@ -30356,7 +30356,7 @@
       {
         "id": "s-plus-y035e",
         "name": "S Plus",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 868000,
@@ -30373,7 +30373,7 @@
       {
         "id": "s-amt-b2a1q",
         "name": "S AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 894000,
@@ -30390,7 +30390,7 @@
       {
         "id": "s-plus-amt-jyqs1",
         "name": "S Plus AMT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 929000,
@@ -30407,7 +30407,7 @@
       {
         "id": "g-turbo-21rpz",
         "name": "G Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1045000,
@@ -30424,7 +30424,7 @@
       {
         "id": "v-turbo-ktveb",
         "name": "V Turbo",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1136000,
@@ -30441,7 +30441,7 @@
       {
         "id": "v-turbo-dual-tone-i0biv",
         "name": "V Turbo Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1152000,
@@ -30458,7 +30458,7 @@
       {
         "id": "g-turbo-at-rsktq",
         "name": "G Turbo AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1186000,
@@ -30475,7 +30475,7 @@
       {
         "id": "v-turbo-at-jrs4s",
         "name": "V Turbo AT",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1278000,
@@ -30492,7 +30492,7 @@
       {
         "id": "v-turbo-at-dual-tone-k7ahg",
         "name": "V Turbo AT Dual Tone",
-        "engine": "",
+        "engine": "1197 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1294000,
@@ -30848,7 +30848,7 @@
       {
         "id": "mg--executive-6088l",
         "name": "MG  Executive",
-        "engine": "",
+        "engine": "17.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 780000,
@@ -30865,7 +30865,7 @@
       {
         "id": "mg--excite-33ulk",
         "name": "MG  Excite",
-        "engine": "",
+        "engine": "17.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 890000,
@@ -30882,7 +30882,7 @@
       {
         "id": "mg--excite-fc-sy5ib",
         "name": "MG  Excite FC",
-        "engine": "",
+        "engine": "17.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 917000,
@@ -30899,7 +30899,7 @@
       {
         "id": "mg--exclusive-76ms1",
         "name": "MG  Exclusive",
-        "engine": "",
+        "engine": "17.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 980000,
@@ -30916,7 +30916,7 @@
       {
         "id": "mg--blackstorm-edition-xz0pj",
         "name": "MG  Blackstorm Edition",
-        "engine": "",
+        "engine": "17.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1000000,
@@ -30933,7 +30933,7 @@
       {
         "id": "mg--exclusive-fc-dxn26",
         "name": "MG  Exclusive FC",
-        "engine": "",
+        "engine": "17.3 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1007000,
@@ -31818,7 +31818,7 @@
       {
         "id": "authentic-906z9",
         "name": "Authentic",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 581000,
@@ -31835,7 +31835,7 @@
       {
         "id": "evolution-t8zrg",
         "name": "Evolution",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 674000,
@@ -31852,7 +31852,7 @@
       {
         "id": "techno-eceum",
         "name": "Techno",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 744000,
@@ -31869,7 +31869,7 @@
       {
         "id": "evolution-turbo-mt-99kkr",
         "name": "Evolution Turbo MT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 785000,
@@ -31886,7 +31886,7 @@
       {
         "id": "emotion-b2gxq",
         "name": "Emotion",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 805000,
@@ -31903,7 +31903,7 @@
       {
         "id": "emotion-dual-tone-s6d3a",
         "name": "Emotion Dual Tone",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 826000,
@@ -31920,7 +31920,7 @@
       {
         "id": "emotion-amt-8re8k",
         "name": "Emotion AMT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 853000,
@@ -31937,7 +31937,7 @@
       {
         "id": "techno-turbo-mt-4npub",
         "name": "Techno Turbo MT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 854000,
@@ -31954,7 +31954,7 @@
       {
         "id": "emotion-amt-dual-tone-8cpp6",
         "name": "Emotion AMT Dual Tone",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 874000,
@@ -31971,7 +31971,7 @@
       {
         "id": "emotion-tubro-mt-530u6",
         "name": "Emotion Tubro MT",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 900000,
@@ -31988,7 +31988,7 @@
       {
         "id": "emotion-tubro-mt-dual-tone-2tjwn",
         "name": "Emotion Tubro MT Dual Tone",
-        "engine": "",
+        "engine": "999 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 921000,
@@ -35252,7 +35252,7 @@
       {
         "id": "accomplished-x-55-ginjz",
         "name": "Accomplished X 55",
-        "engine": "",
+        "engine": "55 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1719000,
@@ -35269,7 +35269,7 @@
       {
         "id": "empowered-x-55-c842s",
         "name": "Empowered X 55",
-        "engine": "",
+        "engine": "55 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1939000,
@@ -35286,7 +35286,7 @@
       {
         "id": "empowered-x-55-dark-8srb8",
         "name": "Empowered X 55 Dark",
-        "engine": "",
+        "engine": "55 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1969000,
@@ -35467,7 +35467,7 @@
       {
         "id": "aircross-x-x-you-3frkx",
         "name": "Aircross X X You",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 889000,
@@ -35484,7 +35484,7 @@
       {
         "id": "aircross-x-x-you-comfort-edition-zf8qg",
         "name": "Aircross X X You Comfort Edition",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 909000,
@@ -35501,7 +35501,7 @@
       {
         "id": "aircross-x-x-plus-comfort-edition-sau2h",
         "name": "Aircross X X Plus Comfort Edition",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 999000,
@@ -35518,7 +35518,7 @@
       {
         "id": "aircross-x-x-plus-b82p5",
         "name": "Aircross X X Plus",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 999000,
@@ -35535,7 +35535,7 @@
       {
         "id": "aircross-x-turbo-you-comfort-edition-e8crw",
         "name": "Aircross X Turbo YOU Comfort Edition",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1050000,
@@ -35552,7 +35552,7 @@
       {
         "id": "aircross-x-max-jeao8",
         "name": "Aircross X Max",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1162000,
@@ -35569,7 +35569,7 @@
       {
         "id": "aircross-x-x-turbo-plus-7-seater-comfort-edition-xut3s",
         "name": "Aircross X X Turbo Plus 7 Seater Comfort Edition",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1199000,
@@ -35586,7 +35586,7 @@
       {
         "id": "aircross-x-x-turbo-plus-7-seater-qopf1",
         "name": "Aircross X X Turbo Plus 7 Seater",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1199000,
@@ -35603,7 +35603,7 @@
       {
         "id": "aircross-x-turbo-max-83u4o",
         "name": "Aircross X Turbo Max",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1297000,
@@ -35620,7 +35620,7 @@
       {
         "id": "aircross-x-x-turbo-max-7-seater-hpfaq",
         "name": "Aircross X X Turbo Max 7 Seater",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1335000,
@@ -35637,7 +35637,7 @@
       {
         "id": "aircross-x-x-turbo-max-7-seater-dt-sjsfg",
         "name": "Aircross X X Turbo Max 7 Seater DT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1355000,
@@ -35654,7 +35654,7 @@
       {
         "id": "aircross-x-turbo-max-at-psji9",
         "name": "Aircross X Turbo Max AT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1414000,
@@ -35671,7 +35671,7 @@
       {
         "id": "aircross-x-x-turbo-max-at-7-seater-f2jv2",
         "name": "Aircross X X Turbo Max AT 7 Seater",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1452000,
@@ -35688,7 +35688,7 @@
       {
         "id": "aircross-x-x-turbo-max-at-7-seater-dt-5cjv1",
         "name": "Aircross X X Turbo Max AT 7 Seater DT",
-        "engine": "",
+        "engine": "1199 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1472000,
@@ -35771,7 +35771,7 @@
       {
         "id": "e-c3-x-e-c3-x-live-8ehp0",
         "name": "e-C3 X e-C3 X Live",
-        "engine": "",
+        "engine": "29.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1209000,
@@ -35788,7 +35788,7 @@
       {
         "id": "e-c3-x-e-c3-x-live--o--lb7nh",
         "name": "e-C3 X e-C3 X Live (O)",
-        "engine": "",
+        "engine": "29.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1245000,
@@ -35805,7 +35805,7 @@
       {
         "id": "e-c3-x-e-c3-x-shine-9hsme",
         "name": "e-C3 X e-C3 X Shine",
-        "engine": "",
+        "engine": "29.2 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1336000,
@@ -36021,7 +36021,7 @@
       {
         "id": "n6-hdohv",
         "name": "N6",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 932000,
@@ -36038,7 +36038,7 @@
       {
         "id": "n6-dual-tone-o8gwt",
         "name": "N6 Dual Tone",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 932000,
@@ -36055,7 +36055,7 @@
       {
         "id": "n6-dct-r3g7g",
         "name": "N6 DCT",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1023000,
@@ -36072,7 +36072,7 @@
       {
         "id": "n6-dct-dual-tone-utao1",
         "name": "N6 DCT Dual Tone",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1037000,
@@ -36089,7 +36089,7 @@
       {
         "id": "n8-tvpac",
         "name": "N8",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1063000,
@@ -36106,7 +36106,7 @@
       {
         "id": "n8-dual-tone-kynm8",
         "name": "N8 Dual Tone",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Manual",
         "priceExShowroom": 1078000,
@@ -36123,7 +36123,7 @@
       {
         "id": "n8-dct-0x7g7",
         "name": "N8 DCT",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1164000,
@@ -36140,7 +36140,7 @@
       {
         "id": "n8-dct-dual-tone-5nwqe",
         "name": "N8 DCT Dual Tone",
-        "engine": "",
+        "engine": "998 cc",
         "fuelType": "Petrol",
         "transmission": "Automatic",
         "priceExShowroom": 1179000,
@@ -36202,7 +36202,7 @@
       {
         "id": "mg--excite-kr9ec",
         "name": "MG  Excite",
-        "engine": "",
+        "engine": "38 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1470000,
@@ -36219,7 +36219,7 @@
       {
         "id": "mg--exclusive-t68pv",
         "name": "MG  Exclusive",
-        "engine": "",
+        "engine": "38 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1600000,
@@ -36236,7 +36236,7 @@
       {
         "id": "mg--essence-tyvsc",
         "name": "MG  Essence",
-        "engine": "",
+        "engine": "38 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1700000,
@@ -36253,7 +36253,7 @@
       {
         "id": "mg--exclusive-pro-ug0p1",
         "name": "MG  Exclusive Pro",
-        "engine": "",
+        "engine": "38 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1790000,
@@ -36270,7 +36270,7 @@
       {
         "id": "mg--essence-pro-h5svy",
         "name": "MG  Essence Pro",
-        "engine": "",
+        "engine": "38 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 1900000,
@@ -36484,7 +36484,7 @@
       {
         "id": "gt-line-syi5o",
         "name": "GT Line",
-        "engine": "",
+        "engine": "99.8 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 13600000,
@@ -37563,7 +37563,7 @@
       {
         "id": "edrive40-m-sport-h2gzb",
         "name": "eDrive40 M Sport",
-        "engine": "",
+        "engine": "83.9 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 7750000,
@@ -37709,7 +37709,7 @@
       {
         "id": "ec40-e80-vcrn4",
         "name": "EC40 E80",
-        "engine": "",
+        "engine": "82 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 6210000,
@@ -38263,7 +38263,7 @@
       {
         "id": "std-3zigo",
         "name": "STD",
-        "engine": "",
+        "engine": "93.4 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 17000000,
@@ -38280,7 +38280,7 @@
       {
         "id": "4s-tdn3x",
         "name": "4S",
-        "engine": "",
+        "engine": "93.4 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 19600000,
@@ -38297,7 +38297,7 @@
       {
         "id": "turbo-a84tt",
         "name": "Turbo",
-        "engine": "",
+        "engine": "93.4 kWh Battery",
         "fuelType": "Electric",
         "transmission": "Automatic",
         "priceExShowroom": 27000000,
