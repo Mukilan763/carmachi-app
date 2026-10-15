@@ -56,6 +56,7 @@ const BRAND_MAP: Record<string, string> = {
     'volkswagen': 'Volkswagen', 'vw': 'Volkswagen', 
     'skoda': 'Skoda', 'mg': 'MG', 'renault': 'Renault',
     'nissan': 'Nissan', 'citroen': 'Citroen', 'jeep': 'Jeep',
+    'byd': 'BYD', 'force': 'Force',
     'bmw': 'BMW', 'mercedes': 'Mercedes-Benz', 'audi': 'Audi',
     'land rover': 'Land Rover', 'volvo': 'Volvo', 'lexus': 'Lexus',
 };
@@ -65,14 +66,18 @@ const BRAND_KEYS = Object.keys(BRAND_MAP);
 const CAR_NAMES = [
     'alto', 'wagonr', 'wagon r', 'swift', 'baleno', 'dzire', 'brezza', 'fronx', 'jimny', 'invicto', 'ertiga', 'xl6', 'grand vitara', 'ciaz',
     'i10', 'i20', 'venue', 'creta', 'verna', 'alcazar', 'tucson', 'exter', 'aura',
-    'punch', 'altroz', 'nexon', 'harrier', 'safari', 'tiago', 'tigor', 'curvv',
-    'xuv300', 'xuv700', 'thar', 'bolero', 'scorpio', 'scorpio n', 'xuv400', 'be 6',
-    'seltos', 'sonet', 'carens', 'syros', 'ev6',
-    'innova', 'fortuner', 'glanza', 'urban cruiser', 'hyryder', 'camry',
+    'punch', 'altroz', 'nexon', 'harrier', 'safari', 'tiago', 'tigor', 'curvv', 'altroz racer',
+    'xuv300', 'xuv 3xo', '3xo', 'xuv700', 'thar', 'thar roxx', 'roxx', 'bolero', 'scorpio', 'scorpio n', 'scorpio classic', 'xuv400', 'be 6',
+    'seltos', 'sonet', 'carens', 'syros', 'ev6', 'ev9', 'carnival',
+    'innova', 'innova hycross', 'hycross', 'fortuner', 'glanza', 'urban cruiser', 'hyryder', 'camry', 'hilux', 'taisor', 'rumion',
     'city', 'amaze', 'elevate', 'wr-v',
-    'virtus', 'taigun', 'kushaq', 'slavia',
+    'virtus', 'taigun', 'kushaq', 'slavia', 'kylaq', 'kodiaq', 'superb', 'tiguan',
     'hector', 'astor', 'gloster', 'comet', 'windsor',
-    'magnite', 'kicks', 'x-trail',
+    'magnite', 'kicks', 'x-trail', 'triber', 'kiger', 'kwid',
+    'basalt', 'c3', 'c3 aircross', 'ec3',
+    'seal', 'byd seal', 'emax 7', 'emax', 'atto 3',
+    'gurkha', 'force gurkha', 'wrangler', 'compass', 'meridian',
+    'ix1', 'e-class', 'es 300h'
 ];
 
 // ─── CITY DATABASE ───

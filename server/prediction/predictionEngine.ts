@@ -50,17 +50,22 @@ const BRAND_RESALE: Record<string, number> = {
     'Toyota': 95, 'Maruti Suzuki': 92, 'Hyundai': 86, 'Honda': 84,
     'Mahindra': 82, 'Kia': 80, 'Tata': 78, 'Skoda': 75,
     'Volkswagen': 75, 'MG': 72, 'Renault': 68, 'Nissan': 66,
-    'Citroen': 65, 'Jeep': 70,
+    'Citroen': 65, 'Jeep': 70, 'BYD': 74, 'Force': 76,
+    'BMW': 72, 'Mercedes-Benz': 75, 'Audi': 70, 'Volvo': 73, 'Lexus': 85
 };
 const BRAND_SERVICE_DEFAULT: Record<string, number> = {
     'Maruti Suzuki': 45, 'Hyundai': 28, 'Tata': 24, 'Mahindra': 20,
     'Toyota': 18, 'Honda': 16, 'Kia': 15, 'MG': 12,
     'Skoda': 10, 'Volkswagen': 10, 'Renault': 8, 'Nissan': 6,
+    'Citroen': 6, 'Jeep': 8, 'BYD': 8, 'Force': 14,
+    'BMW': 12, 'Mercedes-Benz': 14, 'Audi': 12, 'Volvo': 10, 'Lexus': 8
 };
 const BRAND_SAFETY: Record<string, number> = {
-    'Tata': 95, 'Volkswagen': 93, 'Skoda': 92, 'Toyota': 88,
-    'Mahindra': 88, 'Hyundai': 85, 'Kia': 85, 'Honda': 84,
-    'MG': 82, 'Maruti Suzuki': 74, 'Renault': 72, 'Nissan': 72,
+    'Volvo': 98, 'Tata': 95, 'Volkswagen': 93, 'Skoda': 92, 'Toyota': 88,
+    'Mahindra': 88, 'Mercedes-Benz': 92, 'BMW': 90, 'Audi': 90, 'BYD': 88,
+    'Hyundai': 85, 'Kia': 85, 'Honda': 84, 'Jeep': 88, 'Lexus': 90,
+    'MG': 82, 'Maruti Suzuki': 78, 'Renault': 72, 'Nissan': 72, 'Citroen': 75,
+    'Force': 72
 };
 
 // ─── Context-aware scoring modifiers ───

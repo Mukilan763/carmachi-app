@@ -13,67 +13,122 @@ function tokenize(text: string): string[] {
 }
 
 /**
- * Converts a car object into a rich text profile.
+ * Converts a car object into a rich text profile for TF-IDF vectorization.
+ * Deeply indexed with Indian automotive semantics, brand reputations, and variant specs.
  */
 export function buildCarProfile(car: any): string {
   const profileParts: string[] = [];
 
-  // Brand reputation
-  const brand = (car.make || car.brand || '').toLowerCase();
-  if (brand.includes('tata')) profileParts.push('tata safety crash tested strong build');
-  else if (brand.includes('maruti')) profileParts.push('maruti suzuki reliable low maintenance vast service network mileage');
-  else if (brand.includes('hyundai')) profileParts.push('hyundai features premium smooth comfortable');
-  else if (brand.includes('mahindra')) profileParts.push('mahindra rugged suv tough reliable diesel');
-  else if (brand.includes('toyota')) profileParts.push('toyota reliable long lasting bulletproof engine');
-  else if (brand.includes('honda')) profileParts.push('honda refined engine ivtec smooth reliable');
+  // 1. Brand reputation & heritage
+  const brand = (car.brand || car.make || '').toLowerCase();
+  if (brand.includes('tata')) profileParts.push('tata safety 5 star crash tested strong build quality rugged harrier safari nexon punch altroz tiago curvv');
+  else if (brand.includes('maruti')) profileParts.push('maruti suzuki reliable low maintenance vast service network high resale mileage fuel efficient swift dzire baleno wagonr brezza ertiga fronx grand vitara');
+  else if (brand.includes('hyundai')) profileParts.push('hyundai features premium smooth comfortable refined high tech creta venue verna i20 alcazar exter tucson');
+  else if (brand.includes('mahindra')) profileParts.push('mahindra rugged tough reliable diesel heavy duty ladder frame thar scorpio xuv700 xuv3xo bolero road presence 4x4 offroad');
+  else if (brand.includes('toyota')) profileParts.push('toyota reliable long lasting bulletproof engine indestructible hybrid resale value innova fortuner hycross hyryder glanza hilux');
+  else if (brand.includes('honda')) profileParts.push('honda refined engine ivtec smooth reliable spacious sedan city amaze elevate bulletproof');
+  else if (brand.includes('kia')) profileParts.push('kia stylish futuristic tech modern features loaded seltos sonet carens ev6 carnival design ventilated seats');
+  else if (brand.includes('skoda')) profileParts.push('skoda german engineering solid european build handling driving dynamics kushaq slavia kylaq kodiaq turbo tsi punchy');
+  else if (brand.includes('volkswagen')) profileParts.push('volkswagen german build quality 5 star safety handling precision virtus taigun tiguan tsi dsg high speed stability');
+  else if (brand.includes('mg')) profileParts.push('mg feature loaded tech internet inside large touchscreen hector astor zs ev windsor comet panoramic sunroof spacious');
+  else if (brand.includes('byd')) profileParts.push('byd advanced blade battery ev long range electric tech seal atto3 emax7 zero emissions ultra safe');
+  else if (brand.includes('citroen')) profileParts.push('citroen supreme comfort flying carpet suspension soft ride basalt c3 aircross pothole absorber');
+  else if (brand.includes('jeep')) profileParts.push('jeep true 4x4 trail rated offroad compass meridian wrangler robust solid');
+  else if (brand.includes('force')) profileParts.push('force rugged 4x4 offroader differential locks snorkel gurkha tough go anywhere heavy duty');
+  else if (brand.includes('bmw')) profileParts.push('bmw luxury driver car rear wheel drive sheer driving pleasure performance m sport x1 x3 3 series');
+  else if (brand.includes('mercedes')) profileParts.push('mercedes benz luxury status comfort prestige amg limousine e class c class s class glc');
+  else if (brand.includes('audi')) profileParts.push('audi luxury quattro all wheel drive matrix led technology sophisticated q3 q5 q7 a4 a6');
+  else if (brand.includes('land rover')) profileParts.push('land rover luxury offroad defender range rover evoque terrain response status royalty');
+  else if (brand.includes('volvo')) profileParts.push('volvo ultimate safety radar adas lidar luxury clean electric recharge xc40 xc60 ex40');
+  else if (brand.includes('lexus')) profileParts.push('lexus luxury hybrid whisper quiet reliable takumi craftsmanship es300h rx');
 
-  // Body type implications
+  // 2. Body type implications
   const bodyType = (car.bodyType || '').toLowerCase();
-  if (bodyType.includes('suv')) profileParts.push('suv high ground clearance rugged rough roads spacious presence');
-  else if (bodyType.includes('sedan')) profileParts.push('sedan comfortable highway cruiser stable aerodynamic boot space');
-  else if (bodyType.includes('hatchback')) profileParts.push('hatchback compact city driving easy parking maneuverable');
-  else if (bodyType.includes('mpv') || bodyType.includes('muv')) profileParts.push('mpv family carrier spacious practical 7 seater');
+  if (bodyType.includes('suv')) profileParts.push('suv high ground clearance rugged rough roads potholes water wading spacious presence commanding view');
+  else if (bodyType.includes('sedan')) profileParts.push('sedan comfortable highway cruiser stable aerodynamic boot space luggage low body roll executive');
+  else if (bodyType.includes('hatchback')) profileParts.push('hatchback compact city driving easy parking narrow lanes maneuverable commuter');
+  else if (bodyType.includes('mpv') || bodyType.includes('muv')) profileParts.push('mpv muv family carrier spacious practical 6 7 8 seater captain seats road trips');
 
-  // Fuel type implications
-  const fuelType = (car.fuelType || '').toLowerCase();
-  if (fuelType.includes('cng')) profileParts.push('cng economical low running cost cheap eco friendly');
-  else if (fuelType.includes('diesel')) profileParts.push('diesel torque highway long distance punchy efficient');
-  else if (fuelType.includes('electric') || fuelType.includes('ev')) profileParts.push('electric zero emissions instant torque silent cheap running cost green');
-  else if (fuelType.includes('petrol')) profileParts.push('petrol smooth refined quiet peppy');
+  // 3. Fuel type & variants implications
+  const carFuel = (car.fuelType || '').toLowerCase();
+  if (carFuel.includes('cng')) profileParts.push('cng economical low running cost cheap eco friendly green');
+  if (carFuel.includes('diesel')) profileParts.push('diesel torque highway long distance punchy efficient pulling power');
+  if (carFuel.includes('electric') || carFuel.includes('ev')) profileParts.push('electric ev zero emissions instant torque silent cheap running cost green fast charging');
+  if (carFuel.includes('hybrid')) profileParts.push('hybrid self charging ultra efficient green quiet high mileage');
+  if (carFuel.includes('petrol')) profileParts.push('petrol smooth refined quiet peppy responsive');
 
-  // Segment positioning
-  const price = car.price || car.exShowroomPrice || 0;
-  if (price > 0 && price < 700000) profileParts.push('budget affordable entry level cheap');
-  else if (price >= 700000 && price < 1500000) profileParts.push('mid range value for money practical');
-  else if (price >= 1500000 && price < 3000000) profileParts.push('premium loaded aspiration');
-  else if (price >= 3000000) profileParts.push('premium luxury features loaded status symbol');
+  // Extract fuel types and transmissions from variants
+  if (car.variants && Array.isArray(car.variants)) {
+    const fuels = new Set<string>();
+    const trans = new Set<string>();
+    const highlights = new Set<string>();
 
-  // Performance tier
-  const power = car.power || car.bhp || 0;
-  if (power > 0 && power < 75) profileParts.push('city commuter basic power adequate');
-  else if (power >= 75 && power < 120) profileParts.push('balanced performance sufficient');
-  else if (power >= 120 && power < 200) profileParts.push('powerful fast enthusiastic fun to drive');
-  else if (power >= 200) profileParts.push('performance fast thrilling quick');
+    for (const v of car.variants) {
+      if (v.fuelType) fuels.add(v.fuelType.toLowerCase());
+      if (v.transmission) trans.add(v.transmission.toLowerCase());
+      if (Array.isArray(v.keyHighlights)) {
+        v.keyHighlights.forEach((h: string) => highlights.add(h.toLowerCase()));
+      }
+    }
 
-  // Feature keywords
-  if (car.pros) profileParts.push(car.pros.join(' '));
-  if (car.cons) profileParts.push(car.cons.join(' '));
-  if (car.features) profileParts.push(car.features.join(' '));
+    if (fuels.has('cng')) profileParts.push('cng factory fitted cng kit economical');
+    if (fuels.has('diesel')) profileParts.push('diesel torque highway punchy');
+    if (fuels.has('electric')) profileParts.push('electric ev battery zero emissions');
+    if (fuels.has('hybrid')) profileParts.push('hybrid strong hybrid e-cvt');
+    if (trans.has('automatic')) profileParts.push('automatic amt cvt dsg dct dca torque converter paddle shifters traffic ease');
+    if (trans.has('manual')) profileParts.push('manual 5 speed 6 speed stick shift control');
 
-  // Mileage descriptors
-  const mileage = car.mileage || car.fuelEfficiency || 0;
-  if (mileage > 20) profileParts.push('high mileage fuel efficient economical frugal');
-  else if (mileage < 12) profileParts.push('low mileage gas guzzler thirsty');
+    profileParts.push(Array.from(highlights).join(' '));
+  }
 
-  // Seating capacity
+  // 4. Segment & Price positioning
+  const price = car.priceRange?.min ?? car.priceMin ?? car.price ?? car.exShowroomPrice ?? 0;
+  if (price > 0 && price < 700000) profileParts.push('budget affordable entry level cheap first time buyer value');
+  else if (price >= 700000 && price < 1500000) profileParts.push('mid range value for money practical family upgrade');
+  else if (price >= 1500000 && price < 3000000) profileParts.push('premium loaded aspirational executive features luxury');
+  else if (price >= 3000000) profileParts.push('ultra luxury premium status symbol high end imported flagship');
+
+  // 5. Performance tier
+  let power = 0;
+  if (typeof car.power === 'string') {
+    const m = car.power.match(/(\d+(?:\.\d+)?)/);
+    if (m) power = parseFloat(m[1]);
+  } else if (typeof car.power === 'number') {
+    power = car.power;
+  }
+  if (power > 0 && power < 75) profileParts.push('city commuter basic power adequate easy driving');
+  else if (power >= 75 && power < 125) profileParts.push('balanced performance sufficient peppy city and highway');
+  else if (power >= 125 && power < 200) profileParts.push('powerful fast enthusiastic fun to drive punchy overtaking');
+  else if (power >= 200) profileParts.push('high performance thrilling fast quick supercar sports speed');
+
+  // 6. Pros, Cons & Tags
+  if (car.prosAndCons?.pros && Array.isArray(car.prosAndCons.pros)) profileParts.push(car.prosAndCons.pros.join(' '));
+  if (car.prosAndCons?.cons && Array.isArray(car.prosAndCons.cons)) profileParts.push(car.prosAndCons.cons.join(' '));
+  if (car.pros && Array.isArray(car.pros)) profileParts.push(car.pros.join(' '));
+  if (car.cons && Array.isArray(car.cons)) profileParts.push(car.cons.join(' '));
+  if (car.tags && Array.isArray(car.tags)) profileParts.push(car.tags.join(' '));
+
+  // 7. Mileage descriptors
+  let mileage = 0;
+  if (typeof car.mileage === 'string') {
+    const m = car.mileage.match(/(\d+(?:\.\d+)?)/);
+    if (m) mileage = parseFloat(m[1]);
+  } else if (typeof car.mileage === 'number') {
+    mileage = car.mileage;
+  }
+  if (mileage >= 22) profileParts.push('exceptional mileage high fuel efficiency ultra frugal saving');
+  else if (mileage >= 17) profileParts.push('good mileage fuel efficient economical');
+  else if (mileage > 0 && mileage < 12) profileParts.push('thirsty high fuel consumption powerful heavy');
+
+  // 8. Seating capacity
   const seating = car.seatingCapacity || car.seats || 5;
   if (seating === 2) profileParts.push('two seater sports couple');
-  if (seating <= 5) profileParts.push('five seater small family');
-  if (seating >= 6) profileParts.push('large family 6 7 8 seater group travel');
+  else if (seating <= 5) profileParts.push('five seater small family nuclear family');
+  else if (seating >= 6) profileParts.push('large family 6 7 8 seater joint family group travel three rows');
 
-  // General fields
+  // 9. General identifiers
   profileParts.push(car.name || '');
-  profileParts.push(car.variant || '');
+  profileParts.push(car.segment || '');
   profileParts.push(car.description || '');
 
   return profileParts.join(' ');
