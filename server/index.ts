@@ -13,7 +13,11 @@ import liveRouter from './routes/live';
 import adminRouter from './routes/admin';
 import authRouter from './routes/auth';
 import { dataStore } from './dataStore';
-import { scheduleLiveScraping } from './scraper/backgroundManager';
+import { 
+    scheduleNightlyScraping, 
+    enableDataFileWatcher, 
+    enableMarketUpdateProbe 
+} from './scraper/backgroundManager';
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -21,8 +25,14 @@ const PORT = process.env.PORT || 3001;
 // Initialize in-memory datastore
 dataStore.initialize();
 
-// Start automated background live scraping (every 12 hours)
-scheduleLiveScraping(12);
+// 1. Run live scraper every night at 2:00 AM IST
+scheduleNightlyScraping(2, 0);
+
+// 2. Activate hot-reload whenever a data update occurs
+enableDataFileWatcher();
+
+// 3. Probe for market updates/new launches every 4 hours
+enableMarketUpdateProbe(4);
 
 app.use(cors());
 app.use(express.json());

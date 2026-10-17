@@ -1,6 +1,7 @@
 import { Router } from 'express';
 import fs from 'fs';
 import path from 'path';
+import { triggerScrapeOnUpdate, getScraperStatus } from '../scraper/backgroundManager';
 
 const router = Router();
 
@@ -102,6 +103,22 @@ router.get('/scrape', async (req, res) => {
         console.error('Scraping error:', error.message);
         res.status(500).json({ error: 'Failed to fetch live data' });
     }
+});
+
+// Webhook endpoint: Activate live scraper whenever an external update occurs
+router.post('/webhook/update', (req, res) => {
+    const triggerSource = req.body?.source || req.headers['x-trigger-source'] || 'External Webhook Update';
+    const result = triggerScrapeOnUpdate(String(triggerSource));
+    res.json({
+        success: true,
+        message: 'Live scraper triggered successfully upon update event.',
+        ...result
+    });
+});
+
+// Telemetry endpoint: Check scraper status and next scheduled nightly run
+router.get('/scraper-status', (req, res) => {
+    res.json(getScraperStatus());
 });
 
 export default router;
