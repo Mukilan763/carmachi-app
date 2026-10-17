@@ -129,6 +129,8 @@ const COMFORT_KEYWORDS = /\b(?:comfort|comfortable|smooth|ride.?quality|suspensi
 const TECH_KEYWORDS = /\b(?:features|tech|technology|touchscreen|infotainment|apple.?carplay|android.?auto|connected|ota|hud|360.?camera|wireless|sunroof|panoramic|digital|instrument|cluster|adas|cruise.?control)\b/;
 const OFFROAD_KEYWORDS = /\b(?:offroad|off.?road|rough.?road|pothole|bad.?road|village|4wd|4x4|awd|all.?wheel|ground.?clearance|water.?wading|mud|gravel|terrain|mountain|hill|trek)\b/;
 const COMPACT_KEYWORDS = /\b(?:compact|small|tiny|mini|narrow.?lane|parking|tight.?space|easy.?to.?park|city.?car|manoeuvre|maneuver|turning.?radius|short)\b/;
+const RESALE_KEYWORDS = /\b(?:resale|resale.?value|depreciation|hold.?value|selling.?price|second.?hand|used.?car.?market)\b/;
+const SERVICE_KEYWORDS = /\b(?:low.?maintenance|cheap.?maintenance|maintenance|service|service.?network|service.?center|mechanic|spare.?parts|peace.?of.?mind|reliable|reliability|hassle.?free|easy.?repair)\b/;
 
 const TERRAIN_SIGNALS: Record<string, string[]> = {
     'city': ['city', 'traffic', 'urban', 'signal', 'metro', 'town', 'office', 'commute', 'parking'],
@@ -291,17 +293,22 @@ export const advancedNaturalLanguageParser = (text: string, existingInput: any):
     // ═══════════════════════════════════════════════════
     // 5. SEATING CAPACITY
     // ═══════════════════════════════════════════════════
-    const seatMatch = lowerText.match(/(\d+)\s*(?:seater|seats|seat|passenger)/);
+    const seatMatch = lowerText.match(/\b(\d+)\s*[-]?\s*(?:seater|seats|seat|passenger|person|people)\b/i);
     if (seatMatch) {
         input.seatingCapacity = Number(seatMatch[1]);
     }
-    const familySizeMatch = lowerText.match(/family\s*of\s*(\d+)/);
+    const wordSeatMatch = lowerText.match(/\b(four|five|six|seven|eight)\s*[-]?\s*(?:seater|seats|seat|passenger|person|people)\b/i);
+    if (wordSeatMatch) {
+        const wordMap: Record<string, number> = { four: 4, five: 5, six: 6, seven: 7, eight: 8 };
+        input.seatingCapacity = wordMap[wordSeatMatch[1].toLowerCase()] || input.seatingCapacity;
+    }
+    const familySizeMatch = lowerText.match(/family\s*of\s*(\d+)/i);
     if (familySizeMatch) input.familySize = Number(familySizeMatch[1]);
-    if (lowerText.match(/(?:big family|large family|joint family|7 people|8 people)/)) {
+    if (lowerText.match(/(?:big family|large family|joint family|7 people|8 people|7\s*[-]?seater|seven\s*[-]?seater)/i)) {
         input.familySize = input.familySize || 7;
         input.seatingCapacity = input.seatingCapacity || 7;
     }
-    if (lowerText.match(/(?:small family|nuclear|family of 4|4 people)/)) {
+    if (lowerText.match(/(?:small family|nuclear|family of 4|4 people|4\s*[-]?seater|four\s*[-]?seater)/i)) {
         input.familySize = input.familySize || 4;
     }
 
@@ -364,6 +371,12 @@ export const advancedNaturalLanguageParser = (text: string, existingInput: any):
     if (COMPACT_KEYWORDS.test(lowerText)) {
         input.jevAnalysis.wantsCompact = true;
     }
+    if (RESALE_KEYWORDS.test(lowerText)) {
+        if (!input.priorities.includes('resaleValue')) input.priorities.push('resaleValue');
+    }
+    if (SERVICE_KEYWORDS.test(lowerText)) {
+        if (!input.priorities.includes('serviceNetwork')) input.priorities.push('serviceNetwork');
+    }
     if (/\bsuv\b/.test(lowerText)) {
         input.jevAnalysis.wantsSUV = true;
     }
@@ -423,10 +436,9 @@ export const advancedNaturalLanguageParser = (text: string, existingInput: any):
         input.jevAnalysis.wantsEconomy = true;
         if (!input.fuelPreference) input.fuelPreference = 'CNG'; // Ola/Uber drivers prefer CNG
     }
-    // Large family → 7-seater
+    // Large family → 7-seater (can be SUV or MUV/MPV)
     if (input.contextSignals.passengerProfile === 'family_large') {
         input.seatingCapacity = input.seatingCapacity || 7;
-        if (!input.bodyType) input.bodyType = 'SUV';
     }
     // First car
     if (/\b(?:first car|new driver|beginner|learner|just got license|first time)\b/.test(lowerText)) {

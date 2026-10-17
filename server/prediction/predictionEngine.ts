@@ -135,37 +135,48 @@ function detectPersona(input: PredictionInput): string {
 function hardFilter(cars: any[], input: PredictionInput): any[] {
     const minBudget = Number(input.budgetMin) || 0;
     const maxBudget = Number(input.budgetMax) || Infinity;
-    const flexMaxBudget = maxBudget * 1.15; // 15% flex
+    const flexMaxBudget = maxBudget === Infinity ? Infinity : maxBudget * 1.15; // 15% flex
 
     return cars.filter(c => {
         // Excluded brands
         if (input.excludedBrands?.length && input.excludedBrands.some(b =>
-            c.brand.toLowerCase().includes(b.toLowerCase())
+            c.brand?.toLowerCase().includes(b.toLowerCase())
         )) return false;
 
         // Excluded body type
         if (input.excludedBody && c.bodyType?.toLowerCase() === input.excludedBody.toLowerCase()) return false;
 
-        // Seating capacity
-        const requiredSeats = input.seatingCapacity || input.familySize || 0;
-        if (requiredSeats && c.seatingCapacity < requiredSeats) return false;
+        // Seating capacity: if user needs seats, car must have at least that many seats
+        const requiredSeats = input.seatingCapacity || 0;
+        if (requiredSeats > 0) {
+            const carSeats = Number(c.seatingCapacity) || 5;
+            if (carSeats < requiredSeats) return false;
+        }
 
         // Body type preference
         if (input.bodyType && input.bodyType !== 'Any') {
-            if (c.bodyType?.toLowerCase() !== input.bodyType.toLowerCase()) return false;
+            const prefBody = input.bodyType.toLowerCase();
+            const carBody = (c.bodyType || '').toLowerCase();
+            if (carBody !== prefBody) {
+                // If user asked for SUV, but car is MUV and user needs 6+ seats, allow MUV overlap
+                const isMuvSuvOverlap = (prefBody === 'suv' && (carBody === 'muv' || carBody === 'mpv') && requiredSeats >= 6);
+                if (!isMuvSuvOverlap) return false;
+            }
         }
 
-        // Budget (soft: allow 15% over)
+        // Budget (soft: allow 15% flex over max)
         const pMin = c.priceRange?.min ?? 0;
         const pMax = c.priceRange?.max ?? Infinity;
         if (pMin > flexMaxBudget || pMax < minBudget) return false;
 
-        // Fuel preference / exclusion
+        // Fuel preference / exclusion (ensure car has at least one variant in budget)
         if (input.fuelPreference && input.fuelPreference !== 'Any') {
-            const hasFuel = c.variants?.some((v: any) =>
-                v.fuelType?.toLowerCase() === input.fuelPreference?.toLowerCase()
+            const prefFuel = input.fuelPreference.toLowerCase();
+            const hasFuelInBudget = c.variants?.some((v: any) =>
+                v.fuelType?.toLowerCase() === prefFuel &&
+                (v.priceExShowroom <= flexMaxBudget || flexMaxBudget === Infinity)
             );
-            if (!hasFuel) return false;
+            if (!hasFuelInBudget) return false;
         }
         if (input.excludedFuel) {
             const hasOtherFuel = c.variants?.some((v: any) =>
@@ -174,12 +185,14 @@ function hardFilter(cars: any[], input: PredictionInput): any[] {
             if (!hasOtherFuel) return false;
         }
 
-        // Transmission
+        // Transmission (ensure car has at least one variant in budget)
         if (input.transmission && input.transmission !== 'Any') {
-            const hasTrans = c.variants?.some((v: any) =>
-                v.transmission?.toLowerCase() === input.transmission?.toLowerCase()
+            const prefTrans = input.transmission.toLowerCase();
+            const hasTransInBudget = c.variants?.some((v: any) =>
+                v.transmission?.toLowerCase() === prefTrans &&
+                (v.priceExShowroom <= flexMaxBudget || flexMaxBudget === Infinity)
             );
-            if (!hasTrans) return false;
+            if (!hasTransInBudget) return false;
         }
 
         return true;
@@ -362,14 +375,18 @@ export async function runPrediction(
     // ═══════════════════════════════════════════════════
     // STAGE 2: SEMANTIC RANKING (TF-IDF cosine similarity)
     // ═══════════════════════════════════════════════════
-    const queryText = input.textQuery || '';
-    let semanticScores: Map<any, number> = new Map();
+    const queryText = (input.textQuery || '').trim();
+    const hasTextQuery = queryText.length > 3;
+    const semanticScores: Map<string, number> = new Map();
+    let maxSemantic = 0;
 
-    if (queryText.length > 5) {
+    if (hasTextQuery) {
         // Get semantic ranking for all cars
         const semanticResults = semanticEngine.search(queryText, cars.length);
         for (const { car, score } of semanticResults) {
-            semanticScores.set(car, score);
+            const key = car.id || car.name;
+            semanticScores.set(key, score);
+            if (score > maxSemantic) maxSemantic = score;
         }
     }
 
@@ -397,13 +414,13 @@ export async function runPrediction(
         }
 
         // Priority-based fine-tuning
-        if (input.priorities?.includes('safety')) { w.safety += 0.06; w.perf -= 0.03; w.vfm -= 0.03; }
-        if (input.priorities?.includes('mileage')) { w.running += 0.06; w.perf -= 0.03; w.resale -= 0.03; }
-        if (input.priorities?.includes('performance')) { w.perf += 0.08; w.running -= 0.04; w.vfm -= 0.04; }
-        if (input.priorities?.includes('resaleValue')) { w.resale += 0.06; w.perf -= 0.03; }
-        if (input.priorities?.includes('serviceNetwork')) { w.service += 0.06; w.vfm -= 0.03; }
+        if (input.priorities?.includes('safety')) { w.safety += 0.08; w.perf -= 0.04; w.vfm -= 0.04; }
+        if (input.priorities?.includes('mileage')) { w.running += 0.08; w.perf -= 0.04; w.resale -= 0.04; }
+        if (input.priorities?.includes('performance')) { w.perf += 0.10; w.running -= 0.05; w.vfm -= 0.05; }
+        if (input.priorities?.includes('resaleValue')) { w.resale += 0.08; w.perf -= 0.04; }
+        if (input.priorities?.includes('serviceNetwork')) { w.service += 0.08; w.vfm -= 0.04; }
 
-        // ─── Deterministic Score (40%) ───
+        // ─── Deterministic Score (0-100) ───
         const detScore = (
             factors.vfmScore * w.vfm +
             factors.serviceScore * w.service +
@@ -413,14 +430,23 @@ export async function runPrediction(
             factors.performanceScore * w.perf +
             factors.reliabilityScore * w.reliability +
             factors.reviewScore * w.reviews +
-            factors.reviewScore * w.comfort // comfort approximated by user reviews
+            factors.reviewScore * w.comfort
         );
 
-        // ─── Semantic Score (35%) ───
-        const rawSemantic = semanticScores.get(car) || 0;
-        const semanticScore = rawSemantic * 100; // normalize 0-1 to 0-100
+        // ─── Semantic Score (0-100 normalized) ───
+        const carKey = car.id || car.name;
+        const rawSemantic = semanticScores.get(carKey) || 0;
+        let normalizedSemantic = 0;
+        if (hasTextQuery) {
+            if (maxSemantic > 0.005) {
+                const ratio = rawSemantic / maxSemantic;
+                normalizedSemantic = Math.round(Math.min(100, Math.max(15, ratio * 85 + (rawSemantic > 0.03 ? 15 : 5))));
+            } else {
+                normalizedSemantic = 60;
+            }
+        }
 
-        // ─── Context Bonuses (25%) ───
+        // ─── Context Bonuses ───
         let contextBonus = 0;
 
         // Terrain-body alignment
@@ -431,50 +457,78 @@ export async function runPrediction(
         const climateBonuses = CLIMATE_FUEL_BONUS[ctx.climate] || {};
         contextBonus += climateBonuses[factors.fuelType] || 0;
 
-        // JEV penalties for mismatch
+        // JEV alignment
+        if (jev.wantsSUV && car.bodyType === 'SUV') contextBonus += 8;
         if (jev.wantsSUV && car.bodyType !== 'SUV') contextBonus -= 15;
-        if (jev.wantsSafe && factors.safetyScore < 78) contextBonus -= 10;
-        if (jev.wantsFast && factors.performanceScore < 72) contextBonus -= 10;
-        if (jev.wantsEconomy && factors.runningCostScore < 78) contextBonus -= 10;
+        if (jev.wantsSafe && factors.safetyScore >= 85) contextBonus += 8;
+        if (jev.wantsSafe && factors.safetyScore < 78) contextBonus -= 12;
+        if (jev.wantsFast && factors.performanceScore >= 75) contextBonus += 8;
+        if (jev.wantsFast && factors.performanceScore < 70) contextBonus -= 10;
+        if (jev.wantsEconomy && factors.runningCostScore >= 85) contextBonus += 8;
+        if (jev.wantsEconomy && factors.runningCostScore < 75) contextBonus -= 10;
+        if (jev.wantsCompact && car.bodyType === 'Hatchback') contextBonus += 8;
         if (jev.wantsCompact && car.bodyType === 'SUV') contextBonus -= 8;
-        if (jev.wantsOffroad && car.bodyType !== 'SUV') contextBonus -= 12;
+        if (jev.wantsOffroad && (car.bodyType === 'SUV' || car.name.toLowerCase().includes('thar') || car.name.toLowerCase().includes('jimny') || car.name.toLowerCase().includes('gurkha'))) contextBonus += 12;
 
         // Preferred brand bonus
         if (input.preferredBrands?.some(b => car.brand.toLowerCase().includes(b))) {
             contextBonus += 12;
         }
 
-        // Comparison car bonus: if user mentions a competitor, boost cars in the same segment/price
+        // Seating alignment bonus
+        if ((input.seatingCapacity || 0) >= 6 && car.seatingCapacity >= (input.seatingCapacity || 6)) {
+            contextBonus += 12;
+        }
+
+        // Direct priority alignment bonuses
+        if (input.priorities?.includes('safety') && factors.safetyScore >= 90) contextBonus += 6;
+        if (input.priorities?.includes('resaleValue') && factors.resaleScore >= 85) contextBonus += 6;
+        if (input.priorities?.includes('mileage') && factors.runningCostScore >= 88) contextBonus += 6;
+        if (input.priorities?.includes('serviceNetwork') && factors.serviceScore >= 75) contextBonus += 6;
+
+        // Comparison car bonus
         if (input.comparisonCars?.length) {
             const compCar = cars.find(c => input.comparisonCars!.some(cn => c.name.toLowerCase().includes(cn)));
             if (compCar && car.segment === compCar.segment) contextBonus += 8;
         }
 
-        // First car bonus for forgiving, easy-to-drive cars
+        // First car bonus
         if (input.firstCar) {
             if (car.bodyType === 'Hatchback' || car.bodyType === 'Sedan') contextBonus += 5;
-            if (factors.powerNum < 100) contextBonus += 3; // Not too powerful for a beginner
+            if (factors.powerNum < 100) contextBonus += 3;
         }
 
         // Elderly passenger comfort bonus
         if (ctx.passengerProfile === 'elderly') {
-            if (car.bodyType === 'SUV' || car.bodyType === 'MUV') contextBonus += 5; // Easy ingress
+            if (car.bodyType === 'SUV' || car.bodyType === 'MUV') contextBonus += 6;
         }
 
+        // Context alignment score (clamped 40-100)
+        const contextScore = Math.min(100, Math.max(40, 75 + contextBonus));
+
         // ─── FINAL BLENDED SCORE ───
-        const totalScore = (detScore * 0.40) + (semanticScore * 0.35) + ((70 + contextBonus) * 0.25);
+        let totalScore: number;
+        if (hasTextQuery) {
+            // Text query: 45% Deterministic + 35% Semantic Relevance + 20% Context/Priorities
+            totalScore = (detScore * 0.45) + (normalizedSemantic * 0.35) + (contextScore * 0.20);
+        } else {
+            // Form mode: 70% Deterministic + 30% Context/Priorities
+            totalScore = (detScore * 0.70) + (contextScore * 0.30);
+        }
+
+        const finalScore = Math.min(99, Math.max(62, Math.round(totalScore)));
 
         // Generate recommendation text
         const priorityText = input.priorities?.length ? `aligning with your priorities: ${input.priorities.join(', ')}` : 'providing an optimal ownership experience';
         const personaText = persona !== 'Balanced' ? ` Ideal for a ${persona}-oriented buyer.` : '';
-        const whyRecommended = `The ${car.name} (${recommendedVariant?.name || 'Recommended Trim'}) scores ${Math.round(totalScore)}/100 for ${input.city || 'your city'} driving, ${priorityText}.${personaText} With ${factors.brandCenters} service centers nearby, ${recommendedVariant?.mileage || 'competitive'} fuel efficiency, and a ${factors.resaleScore}% resale retention — it's a strong contender.`;
+        const whyRecommended = `The ${car.name} (${recommendedVariant?.name || 'Recommended Trim'}) scores ${finalScore}/100 for ${input.city || 'your city'} driving, ${priorityText}.${personaText} With ${factors.brandCenters} service centers nearby, ${recommendedVariant?.mileage || 'competitive'} fuel efficiency, and a ${factors.resaleScore}% resale retention — it's a strong contender.`;
 
         return {
             car,
             recommendedVariant,
-            overallScore: Math.min(99, Math.max(60, Math.round(totalScore))),
+            overallScore: finalScore,
             persona,
-            semanticRelevance: Math.round(rawSemantic * 100),
+            semanticRelevance: hasTextQuery ? normalizedSemantic : Math.round(detScore),
             whyRecommended,
             keyHighlights: recommendedVariant?.keyHighlights || car.prosAndCons?.pros || ['Touchscreen Infotainment', 'Dual Airbags', 'Rear Parking Sensors'],
             specialFeatures: recommendedVariant?.features || [
