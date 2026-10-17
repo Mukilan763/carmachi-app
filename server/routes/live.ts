@@ -2,6 +2,7 @@ import { Router } from 'express';
 import fs from 'fs';
 import path from 'path';
 import { triggerScrapeOnUpdate, getScraperStatus } from '../scraper/backgroundManager';
+import { updateSingleCar, checkForMarketChanges } from '../scraper/changeDetector';
 
 const router = Router();
 
@@ -114,6 +115,25 @@ router.post('/webhook/update', (req, res) => {
         message: 'Live scraper triggered successfully upon update event.',
         ...result
     });
+});
+
+// On-demand targeted update for a single car
+router.post('/update-car', async (req, res) => {
+    const carNameOrId = req.body?.car;
+    if (!carNameOrId) {
+        return res.status(400).json({ success: false, error: 'car parameter is required' });
+    }
+    const result = await updateSingleCar(String(carNameOrId));
+    res.json(result);
+});
+
+// Proactively check for market changes and trigger update if any detected
+router.post('/check-changes', async (req, res) => {
+    const result = await checkForMarketChanges();
+    if (result.changed) {
+        triggerScrapeOnUpdate(result.reason || 'Detected Market Changes');
+    }
+    res.json(result);
 });
 
 // Telemetry endpoint: Check scraper status and next scheduled nightly run

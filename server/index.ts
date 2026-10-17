@@ -18,6 +18,7 @@ import {
     enableDataFileWatcher, 
     enableMarketUpdateProbe 
 } from './scraper/backgroundManager';
+import { startContinuousChangeDetector } from './scraper/changeDetector';
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -25,14 +26,14 @@ const PORT = process.env.PORT || 3001;
 // Initialize in-memory datastore
 dataStore.initialize();
 
-// 1. Run live scraper every night at 2:00 AM IST
+// 1. Run live scraper every night at 2:00 AM IST (full catalog sweep)
 scheduleNightlyScraping(2, 0);
 
-// 2. Activate hot-reload whenever a data update occurs
+// 2. Activate hot-reload whenever a data update occurs on disk
 enableDataFileWatcher();
 
-// 3. Probe for market updates/new launches every 4 hours
-enableMarketUpdateProbe(4);
+// 3. Proactive market change detector (activates scraper whenever new models or price revisions occur)
+startContinuousChangeDetector(60);
 
 app.use(cors());
 app.use(express.json());
