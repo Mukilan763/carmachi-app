@@ -38,12 +38,40 @@ async function discoverCars() {
             // Typical CarWale structure for car listings
             $('h3').each((i, el) => {
                 const title = $(el).text().trim();
-                // Filter out non-car headings
-                if (!title || title.length < 4 || title.includes('?') || title.toLowerCase().includes('upcoming')) return;
+                // Filter out non-car headings, concepts, and unannounced models
+                if (!title || title.length < 4 || title.includes('?') || 
+                    title.toLowerCase().match(/\b(?:upcoming|concept|vision|next-?gen|facelift|sub-?compact|be\.|xev|ymc|future)\b/i)) {
+                    return;
+                }
                 
-                // Check if we already have it
-                const normalizedTitle = title.toLowerCase();
-                const exists = cars.some(c => c.name.toLowerCase() === normalizedTitle || normalizedTitle.includes(c.name.toLowerCase()));
+                // Advanced duplicate detection across brands & model names
+                const normalizedTitle = title.toLowerCase()
+                    .replace(/maruti\s*suzuki/g, 'maruti')
+                    .replace(/volkswagen/g, 'vw')
+                    .replace(/[^a-z0-9]/g, ' ')
+                    .replace(/\s+/g, ' ')
+                    .trim();
+
+                const exists = cars.some(c => {
+                    const existingName = c.name.toLowerCase()
+                        .replace(/maruti\s*suzuki/g, 'maruti')
+                        .replace(/volkswagen/g, 'vw')
+                        .replace(/[^a-z0-9]/g, ' ')
+                        .replace(/\s+/g, ' ')
+                        .trim();
+
+                    if (existingName === normalizedTitle) return true;
+                    if (existingName.includes(normalizedTitle) || normalizedTitle.includes(existingName)) return true;
+
+                    // Extract core model token (e.g. "brezza", "fronx", "creta")
+                    const titleTokens = normalizedTitle.split(' ').filter(w => w.length > 2 && w !== 'maruti' && w !== 'hyundai' && w !== 'tata' && w !== 'toyota' && w !== 'honda' && w !== 'mahindra' && w !== 'kia' && w !== 'mg' && w !== 'skoda' && w !== 'vw');
+                    const existingTokens = existingName.split(' ').filter(w => w.length > 2 && w !== 'maruti' && w !== 'hyundai' && w !== 'tata' && w !== 'toyota' && w !== 'honda' && w !== 'mahindra' && w !== 'kia' && w !== 'mg' && w !== 'skoda' && w !== 'vw');
+                    
+                    if (titleTokens.length > 0 && existingTokens.length > 0) {
+                        return titleTokens.every(t => existingTokens.includes(t)) || existingTokens.every(t => titleTokens.includes(t));
+                    }
+                    return false;
+                });
                 
                 if (!exists) {
                     // Make sure it contains the brand name (basic validation)
@@ -52,6 +80,7 @@ async function discoverCars() {
                         
                         let displayBrand = brandFormatted.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
                         if (displayBrand === 'Mg') displayBrand = 'MG';
+                        if (displayBrand === 'Maruti Suzuki' || displayBrand === 'Maruti') displayBrand = 'Maruti Suzuki';
                         
                         // Infer body type roughly
                         let bodyType = 'SUV';
