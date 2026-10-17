@@ -60,29 +60,35 @@ Novel interactive tools tailored specifically to the quirks of driving in India:
    ```
 
 3. **Configure Environment Variables:**
-   Create a `.env` file in the `server` directory:
+   Copy the example environment file into `server/.env`:
+   ```bash
+   cp server/.env.example server/.env
+   # Or on Windows PowerShell:
+   # Copy-Item server/.env.example server/.env
+   ```
+   Open `server/.env` and update the placeholders (optional if running offline without Auth):
    ```env
    PORT=3001
-   MONGODB_URI=your_mongodb_connection_string
+   MONGODB_URI=your_mongodb_atlas_connection_string
    JWT_SECRET=your_jwt_secret_key
    ```
+   > **Note:** The core prediction engine, Indian Road Reality Lab, and vehicle catalog run 100% in-memory with zero external dependencies. MongoDB is only required if you want user registration, login, and saved shortlists.
 
 4. **Run in Development Mode:**
    ```bash
-   # In terminal 1 (Server):
-   cd server
-   npm run dev
+   # Terminal 1 — Backend (Port 3001)
+   cd server && npm run dev
 
-   # In terminal 2 (Client):
-   cd client
-   npm run dev
+   # Terminal 2 — Frontend (Port 5173)
+   cd client && npm run dev
    ```
 
-5. **Build for Production:**
+5. **Build & Run Production Server (Unified Web Service):**
    ```bash
    npm run build
    npm start
    ```
+   The Express server serves both the backend API and the compiled React production client at `http://localhost:3001`.
 
 ---
 
